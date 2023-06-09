@@ -1,4 +1,5 @@
 import { Navbar } from './Navbar.js'
+import Footer from './footer.js'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <div>
       <Navbar />
       <body className={inter.className}>{children}</body>
+      <Footer />
     </div>
   )
 }

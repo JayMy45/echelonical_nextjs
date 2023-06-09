@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Howdie from './howdie.js'
 import Dashboard from './dashboard/page.js'
+import Footer from './footer.js'
 
 export default function Home() {
   return (
