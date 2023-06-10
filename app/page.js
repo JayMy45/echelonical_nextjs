@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Howdie from './components/introductions/howdie.js'
 import Dashboard from './components/dashboard/page.js'
-import Footer from './components/footer/footer.js'
 import Services from './components/services/Services.js'
 import AboutMe from './components/about-me/AboutMe.js'
 
