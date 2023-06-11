@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Howdie from './components/introductions/howdie.js'
 import Dashboard from './components/dashboard/page.js'
-import Footer from './components/footer/footer.js'
 import Services from './components/services/Services.js'
 import AboutMe from './components/about-me/AboutMe.js'
 
@@ -9,9 +8,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
-        <Howdie />
+        {/* <Howdie />
         <Services />
-        <AboutMe />
+        <AboutMe /> */}
 
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -119,7 +118,7 @@ export default function Home() {
         </a>
       </div>
       <div>
-        <Dashboard />
+        {/* <Dashboard /> */}
       </div>
     </main>
   )
