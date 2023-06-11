@@ -23,7 +23,7 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-nav {
+header {
   margin: 10px auto 80px;
   padding: 10px 0;
   display: flex;
