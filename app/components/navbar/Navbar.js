@@ -8,19 +8,12 @@ export const Navbar = () => {
             <nav>
                 <div className="logo">
                     <Image
-                        src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1675295594/HoustonRocket.jpg"
+                        src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1686624895/Echelonical/houston_pic_liqfpl.png"
                         alt="Picture of Dog"
                         width={128}
-                        height={77}
+                        height={128}
                     />
-                    <div>
-                        {/* <CldImage
-                            width="600"
-                            height="600"
-                            src="v1675295594/HoustonRocket"
-                            alt="Picture of Dog"
-                        /> */}
-                    </div>
+
 
                     <button className="nav__toggle" aria-label="toggle navigation">
                         <span className="hamburger"></span>
