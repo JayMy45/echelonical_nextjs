@@ -6,7 +6,7 @@ export const Navbar = () => {
     return (
         <>
             <nav className="mt-10">
-                <div className="max-w-6 mx-auto px-4">
+                <div className="max-w-full px-4">
                     <div className="flex ">
                         <div className="flex ">
                             <div className="">
@@ -17,8 +17,6 @@ export const Navbar = () => {
                                     width={200}
                                     height={200}
                                 />
-
-
                             </div>
                             <div className="item-center space-x-4 mt-20">
                                 <div className="border-l-2 p-5 mt-20">
