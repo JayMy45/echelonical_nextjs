@@ -18,18 +18,18 @@ export const Navbar = () => {
                                     height={200}
                                 />
                             </div>
-                            <div className="item-center space-x-4 mt-20">
-                                <div className="border-l-2 p-5 mt-20">
-                                    <Link href="#home" className="nav__link">
+                            <div className="item-center space-x-5 mt-20">
+                                <div className="border-l-2 p-5 mt-20 h-20">
+                                    <Link href="#home" className="">
                                         Home
                                     </Link>
-                                    <Link href="#services" className="nav__link">
+                                    <Link href="#services" className="px-3">
                                         My Services
                                     </Link>
-                                    <Link href="#about" className="nav__link">
+                                    <Link href="#about" className="px-3">
                                         About Me
                                     </Link>
-                                    <Link href="#work" className="nav__link">
+                                    <Link href="#work" className="px-3">
                                         My Work
                                     </Link>
                                 </div>

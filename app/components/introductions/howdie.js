@@ -9,7 +9,7 @@ export default function Howdie() {
                     <h1 className="font-bold text-4xl text-yellow-600">
                         Jeremy Myers
                     </h1>
-                    <p className="section__subtitle section__subtitle--intro">full-stack dev</p>
+                    <p className="text-purple-800">full-stack dev</p>
                     <img src="" alt="" />
                 </div>
             </div>
