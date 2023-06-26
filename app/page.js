@@ -9,7 +9,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <Howdie />
-        <Services />
+        <section className={`border-width: 2px rounded-lg border-color: rgb(255 255 255);`}>
+          <Services />
+        </section>
         <AboutMe />
 
       </div>
