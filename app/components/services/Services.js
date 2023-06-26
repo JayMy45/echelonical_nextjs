@@ -2,7 +2,7 @@ export default function Services() {
     return (
         <>
             {/* My services */}
-            <section className="my-services" id="services">
+            <div className="border-2 mt-5 mb-5 pt-1 pb-10 px-5 rounded-xl" id="services">
                 <h2 className="section__title section__title--services">What I do</h2>
                 <div className="services">
                     <div className="service">
@@ -21,7 +21,7 @@ export default function Services() {
                         <p>Armed with a keen eye for design and an expert understanding of WordPress, I effortlessly weave together themes, plugins, and customizations to create stunning and dynamic websites. Each pixel is meticulously placed, colors are carefully selected, and typography is thoughtfully curated to ensure an engaging and visually striking user experience. With WordPress as my canvas, I transform ideas into beautifully crafted websites that captivate and leave a lasting impression.</p>
                     </div>{/*service */}
                 </div>
-            </section>
+            </div>
         </>
     )
 }

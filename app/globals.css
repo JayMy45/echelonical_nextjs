@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -29,25 +30,9 @@ body {
   margin: 0 auto;
 }
 
-/*  sets margin for navBar */
-nav {
-  margin: 10px auto 80px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  /* border-bottom: 1px solid #ddd; */
-}
 
-/* pushes all links to the left of page */
-nav .nav__link {
-  margin-left: 12px;
-}
 
-/* pushes logo to the right of page */
-nav .logo {
-  margin-right: auto;
-}
+
 
 footer {
   display: block;
