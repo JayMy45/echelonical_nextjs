@@ -10,9 +10,9 @@ export default function Howdie() {
                         Jeremy Myers
                     </h1>
                     <p className="text-purple-800">
-                        <span className="font-bold text-xl"> &lt;&gt; </span>
+                        <span className="font-bold text-xl"> &lt; </span>
                         full-stack dev
-                        <span className="font-bold text-xl"> &lt;/&gt;</span>
+                        <span className="font-bold text-xl"> /&gt;</span>
                     </p>
                     <img src="" alt="" />
                 </div>
