@@ -15,7 +15,7 @@ export default function AboutMe() {
                 {/* portfolio */}
                 <div className="mt-3" id="work">
                     <div>
-                        <h2 className="font-bold text-green-500 text-4xl text-center mb-10 mt-10">Portfolio</h2>
+                        <h2 className="font-bold text-gray-200 text-4xl text-center mb-10 mt-10">Portfolio</h2>
                         <p className=""></p>
 
 
