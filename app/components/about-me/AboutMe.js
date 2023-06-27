@@ -23,12 +23,12 @@ export default function AboutMe() {
 
                             {/* card1 */}
                             <div className="max-w-sm pb-2 bg-white overflow-hidden border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
-                                <img src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1673224064/i49x9t9jknwjytxkkv6k.png" alt="" />
+                                <img className="bg-white" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1687845892/Echelonical/DONE-LOGO_1_fgipts.png" alt="picture of front-end capstone logo" />
                                 <div className="p-4">
                                     <a href="#">
-                                        <h5 className="mb-2 mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Done<span></span></h5>
+                                        <h5 className="mb-2 mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Done<span className="text-3xl">‽</span></h5>
                                     </a>
-                                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Done‽ a front-end application designed to streamline household chore management and completion for families. With Done‽, administrators (parents) gain the ability to effortlessly create and assign personalized tasks. Standard users (children) can easily create and access their assigned tasks, marking them as complete once finished.</p>
                                     <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                         Demo Project                                        <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                                     </a>
@@ -37,14 +37,15 @@ export default function AboutMe() {
 
                             {/* card2 */}
                             <div className="max-w-sm bg-white border overflow-hidden border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
-                                <img src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1673326489/n7mcg6bcgkhk7qdkuynx.png" alt="" />
+                                <img className="bg-gray-200" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1687846005/Echelonical/Music_City_1_cmiu7k.png" alt="" />
                                 <div className="p-4">
                                     <a href="#">
                                         <h5 className="mb-2 mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Music City Pressure<span></span></h5>
                                     </a>
-                                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Music City Pressure is a back-end project designed to facilitate the scheduling and tracking of home power washing appointments. It empowers customers by providing them with essential information and tools to efficiently manage their appointments. The project encompasses three distinct views to enhance user experience and functionality.</p>
                                     <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                        Demo Project                                        <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                        Demo Project
+                                        <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                                     </a>
                                 </div>
                             </div>
