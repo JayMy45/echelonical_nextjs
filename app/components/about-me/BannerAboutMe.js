@@ -1,8 +1,10 @@
 export default function BannerAboutMe() {
+
+
     return (
         <>
-            <div className="py-20 h-screen" style={{
-                backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1687916295/Echelonical/Black_Modern_Minimal_Music_Album_Cover_1_fbytqz.png')",
+            <div className="py-20 h-full" style={{
+                backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1687974820/Echelonical/IMG_0672_kkhlbm.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center"
             }}>
