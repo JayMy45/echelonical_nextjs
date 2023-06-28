@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Howdie from './components/introductions/howdie.js'
+import Howdie from './howdie.js'
 import Dashboard from './components/dashboard/page.js'
-import Services from './components/services/Services.js'
-import AboutMe from './components/about-me/AboutMe.js'
+import Services from './Services.js'
+import AboutMe from './AboutMe.js'
 
 export default function Home() {
   return (

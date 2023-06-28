@@ -25,7 +25,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="mt-10">
+            <nav className="mt-10 ml-20">
                 <div className="max-w-full px-4">
                     <div className="flex ">
                         <div className="flex ">
