@@ -3,7 +3,7 @@ export default function MusicCityPressure() {
         <>
             <div className="mt-20">
                 <div className="py-20 h-screen" style={{
-                    backgroundImage: "linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1688071197/Echelonical/musicCityPressure.House_wo5l6f.png')",
+                    backgroundImage: "linear-gradient(rgba(0,0,0,0.68),rgba(0,0,0,0.3)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1688071197/Echelonical/musicCityPressure.House_wo5l6f.png')",
                     backgroundSize: "contain", // Updated property
                     // backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
