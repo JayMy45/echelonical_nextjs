@@ -8,8 +8,8 @@ import { useState } from "react";
 
 export const Navbar = () => {
 
-    const defaultImageSrc = 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1686624895/Echelonical/houston_pic_liqfpl.png';
-    const hoverImageSrc = 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1687915693/Echelonical/Untitled_design_2_ezaqn4.png'; // Add URL of the image you want to show on hover
+    const defaultImageSrc = 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688060410/Echelonical/houston.grayscale_e1u8yo.png';
+    const hoverImageSrc = 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688060773/Echelonical/houston.color.bronz_n5fzub.png'; // Add URL of the image you want to show on hover
 
 
     const [imageSrc, setImageSrc] = useState(defaultImageSrc);
