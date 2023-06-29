@@ -40,7 +40,7 @@ export const Navbar = () => {
                             </div>
                             <div className="item-center space-x-5 mt-20">
                                 <div className="dark:border-l-2 dark:border-l-white border-l 2 border-l-black p-5 mt-20 h-20">
-                                    <Link href="#home" className="pr-3">
+                                    <Link href="#" className="pr-3">
                                         Home
                                     </Link>
                                     <Link href="#services" className="px-3">
