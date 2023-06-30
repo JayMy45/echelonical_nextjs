@@ -25,8 +25,8 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="mt-10 ml-20">
-                <div className="max-w-full px-4">
+            <nav className="ml-9">
+                <div className="flex flex-row max-w-full px-4">
                     <div className="flex ">
                         <div className="flex ">
                             <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -56,6 +56,28 @@ export const Navbar = () => {
                             </div>
                         </div>
                     </div>
+                    {/* Introduction/Howdie */}
+                    <figure className="flex flex-row border-2 dark:bg-gray-200 mt-4 ml-20 bg-gray-700 opacity-75 w-auto h-auto rounded-2xl px-10 py-2" id="home">
+                        <Image
+                            className="items-center py-1 px-2 rounded-full"
+                            src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688088238/Echelonical/Copy_of_Untitled_Design_1_w5g7ma.png"
+                            alt="Picture of Dog"
+                            width={100}
+                            height={100}
+                        />
+                        <div className="border-1 mt-2">
+                            <h1 className="font-bold text-7xl text-yellow-500">
+                                Jeremy Myers
+                            </h1>
+                            <p className="dark:text-purple-800 text-purple-300 mt-1 ml-3">
+                                <span className="font-bold text-xl"> &lt; </span>
+                                <span className="font-semibold text-lg">full-stack dev</span>
+                                <span className="font-bold text-xl"> /&gt;</span>
+                            </p>
+                            <img src="" alt="" />
+                        </div>
+                    </figure>
+
                 </div>
             </nav>
         </>

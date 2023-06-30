@@ -10,10 +10,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-2">
       <div className='px-8 py-4'>
         <Howdie />
-        <section className={`border-width: 2px rounded-lg border-color: rgb(255 255 255);`}>
-          <Services />
-        </section>
-        <AboutMe />
+        <div className={`border-width: 2px rounded-lg border-color: rgb(255 255 255);`}>
+          <AboutMe />
+        </div>
+        <Services />
         <Portfolio />
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">

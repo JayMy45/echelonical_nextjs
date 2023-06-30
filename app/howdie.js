@@ -4,9 +4,9 @@ export default function Howdie() {
     return (
         <>
             {/* Introduction/Howdie */}
-            <div className="border-2 dark:bg-gray-200 bg-gray-700 opacity-75 w-96 h-28 rounded-2xl px-10 py-2" id="home">
+            <div className="border-2 dark:bg-gray-200 mt-4 ml-20 bg-gray-700 opacity-75 w-96 h-28 rounded-2xl px-10 py-2" id="home">
                 <div className="border-1 mt-2">
-                    <h1 className="font-bold text-4xl text-yellow-500">
+                    <h1 className="font-bold text-7xl text-yellow-500">
                         Jeremy Myers
                     </h1>
                     <p className="dark:text-purple-800 text-purple-300 mt-1 ml-3">
