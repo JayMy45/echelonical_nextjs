@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Howdie from './howdie.js'
-import Dashboard from './components/dashboard/page.js'
 import Services from './Services.js'
 import AboutMe from './AboutMe.js'
 import Portfolio from './Portfolio.js'

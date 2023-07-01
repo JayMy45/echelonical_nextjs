@@ -47,14 +47,14 @@ export default function Portfolio() {
                                 <Image
                                     width={600}
                                     height={500}
-                                    className="bg-white dark:bg-gray-200 object-cover"
+                                    className="bg-white dark:bg-stone-300 object-cover"
                                     src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1687918656/Echelonical/Music_City_2_zpaokx.png"
                                     alt="image of full stack capstone"
                                 />
                             </div>
 
                             {/* Bottom half of MCP Card */}
-                            <div className="flex flex-col justify-between p-4 dark:bg-yellow-900 bg-slate-300">
+                            <div className="flex flex-col justify-between p-4 dark:bg-gray-700 bg-slate-300">
                                 <a href="#">
                                     <h5 className="mb-2 mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Music City Pressure<span></span></h5>
                                 </a>
