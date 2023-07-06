@@ -5,10 +5,10 @@ export default function AboutMe() {
     return (
         <>
             {/* Section Container */}
-            <div className="border-t-2 p-10 mt-5" id="about">
+            <div className="p-10 mt-2" id="about">
 
                 {/* Banner */}
-                <div className="mt-8">
+                <div className="mt-1">
                     <BannerAboutMe />
 
                     {/* About Me */}
