@@ -18,6 +18,9 @@ export default function Goods() {
                 </div>
                 <div className="w-full md:absolute md:w-1/2 h-1/2 border-2 md:top-0 md:right-0 p-5">
                     02
+                    <div className="text-3xl font-bold text-white mb-1 uppercase mb-10 w-fit top-0 right-0">
+                        Contact Me
+                    </div>
                     <Contact />
                 </div>
                 <div className="w-full md:absolute md:w-1/2 h-1/2 border-2 md:bottom-0 md:left-0">
