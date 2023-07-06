@@ -50,7 +50,7 @@ export const Navbar = () => {
                                         About Me
                                     </Link>
                                     <Link href="#work" className="px-3">
-                                        My Work
+                                        Portfolio
                                     </Link>
                                 </div>
                             </div>
