@@ -16,7 +16,7 @@ export default function Goods() {
                     {/* 01 */}
                     <GoodBanner />
                 </div>
-                <div className="w-full md:absolute md:w-1/2 h-1/2 border-2 md:top-0 md:right-0">
+                <div className="w-full md:absolute md:w-1/2 h-1/2 border-2 md:top-0 md:right-0 p-5">
                     02
                     <Contact />
                 </div>
