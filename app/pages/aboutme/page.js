@@ -1,7 +1,6 @@
-import Image from "next/image";
-import BannerAboutMe from "./BannerAboutMe";
+import BannerAboutMe from "../BannerAboutMe";
 
-export default function AboutMe() {
+export default function Page() {
     return (
         <>
             {/* Section Container */}
@@ -22,6 +21,7 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }

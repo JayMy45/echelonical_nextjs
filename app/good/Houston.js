@@ -22,13 +22,14 @@ export default function Houston() {
     };
     return (
         <>
-            <div className="bg-black border-2 items-center rounded-full" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div className="border-2 rounded-full bg-black" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <Image
                     className="items-center rounded-full"
                     src={imageSrc}
                     alt="Picture of Dog"
                     width={200}
                     height={200}
+                    priority={true}
                 />
             </div>
         </>

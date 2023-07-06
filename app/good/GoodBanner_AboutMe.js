@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function GoodBanner() {
 
 
@@ -14,8 +16,10 @@ export default function GoodBanner() {
             >
                 <div className="container mx-auto px-6 mt-40">
                     <div className="absolute top-0 right-0 p-6">
-                        <h2 className="text-3xl font-bold text-white mb-1 uppercase">About Me</h2>
-                        <h3 className="text-lg mb-8 text-gray-200">Jeremy Myers</h3>
+                        <Link href="/pages/aboutme" >
+                            <h2 className="text-3xl font-bold text-white mb-1 uppercase">About Me</h2>
+                            <h3 className="text-lg mb-8 text-gray-200">Jeremy Myers</h3>
+                        </Link>
                     </div>
                 </div>
             </div>

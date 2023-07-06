@@ -25,17 +25,18 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="ml-9">
+            <nav className="md:ml-9 lg:ml-9 xl:ml-9">
                 <div className="flex max-w-full px-4">
                     <div className="flex-shrink-0 sm-justify-items-center">
                         <div className="flex">
                             <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <Image
-                                    className="items-center py-1 px-2"
+                                    className="items-center py-1 px-2 "
                                     src={imageSrc}
                                     alt="Picture of Dog"
                                     width={200}
                                     height={200}
+                                    priority={true}
                                 />
                             </div>
                             <div className="item-center space-x-5 mt-20">
@@ -46,10 +47,10 @@ export const Navbar = () => {
                                     <Link href="#services" className="px-3">
                                         My Services
                                     </Link>
-                                    <Link href="#about" className="px-3">
+                                    <Link href="/pages/aboutme" className="px-3">
                                         About Me
                                     </Link>
-                                    <Link href="#work" className="px-3">
+                                    <Link href="/pages/portfolio" className="px-3">
                                         Portfolio
                                     </Link>
                                 </div>
