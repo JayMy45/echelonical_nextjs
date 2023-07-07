@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function Contact() {
     return (
         <>
-
+            <div className="text-3xl font-bold text-white mb-1 uppercase mb-10 w-fit top-0 right-0">
+                Contact Me
+            </div>
 
             <div className=" inline-block">
                 <div className="flex justify-between bg-slate-100 rounded-xl p-0 dark:bg-slate-800 w-fit">
