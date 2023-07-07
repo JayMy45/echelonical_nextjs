@@ -42,7 +42,7 @@ export default function Page() {
                         </div>
 
                         {/* card2 - Music City Pressure */}
-                        <div className="max-w-lg mx-auto bg-white border overflow-hidden border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+                        <div className="max-w-lg mx-auto bg-white border overflow-hidden border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 mt-4 md:mt-0">
 
                             <div>
                                 <Image
