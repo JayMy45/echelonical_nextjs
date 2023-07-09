@@ -27,16 +27,23 @@ export default function Contact() {
                 {/* <div className=" inline-block"> */}
                 <div className="flex justify-center justify-evenly mt-10 mx-auto  p-5">
                     <Link className="p-1" href="https://www.linkedin.com/in/jeremynmyers/">
-                        <img className="bg-white rounded-xl w-24 h-24" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688936610/Echelonical/Untitled_design_4_xrvhru.png" alt="GitHub icon" />
+                        <img className="bg-white rounded-xl w-24 h-24" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688936610/Echelonical/Untitled_design_4_xrvhru.png" alt="linkedIn Logo" />
                     </Link>
-                    <div>
-                        <h2 className="font-bold">jnmyers774@gmail.com</h2>
+                    <div className="flex flex-cols justify-center">
+                        <div>
+                            <div className="">
+                                <img className="rounded-xl w-24 h-20 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688943965/Echelonical/emailNashville-bgWhite_mfyvqo.png" alt="email logo" />
+                            </div>
+                            <div className="mt-1">
+                                <h2 className="font-bold">jnmyers774@gmail.com</h2>
+                            </div>
+                        </div>
                     </div>
                     <Link className="p-1" href="https://github.com/JayMy45">
-                        <img className="bg-gray-200 rounded-xl w-24 h-24" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688935951/Echelonical/Untitled_design_6_swt1g0.png" alt="GitHub icon" />
+                        <img className="bg-gray-200 rounded-xl w-24 h-24" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688935951/Echelonical/Untitled_design_6_swt1g0.png" alt="GitHub Logo" />
                     </Link>
                 </div>
-            </div>
+            </div >
         </>
     )
 }
