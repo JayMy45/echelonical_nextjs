@@ -7,11 +7,8 @@ import Houston from "./Houston";
 
 export default function Goods() {
 
-
     return (
         <>
-
-
             <div className="relative w-screen h-screen">
                 <div className="w-full md:absolute md:w-1/2 h-1/2 border-2 md:top-0 md:left-0 p-3">
                     {/* 01 */}

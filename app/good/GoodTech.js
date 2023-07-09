@@ -10,7 +10,7 @@ export default function TechStack() {
                 }}
             >
                 <div className="absolute bottom-0 right-0 p-6 text-3xl font-bold text-white uppercase">
-                    <h2>Tech Stack</h2>
+                    <h2>Skills</h2>
                 </div>
             </div>
         </>

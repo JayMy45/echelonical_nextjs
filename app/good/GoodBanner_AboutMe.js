@@ -17,7 +17,7 @@ export default function GoodBanner() {
                 <div className="container mx-auto px-6 mt-40">
                     <div className="absolute top-0 right-0 p-6 text-3xl font-bold text-white uppercase">
                         <Link href="/pages/aboutme" >
-                            <h2 className="text-3xl font-bold text-white uppercase">
+                            <h2 className="text-3xl font-bold text-white  uppercase">
                                 About Me
                             </h2>
                             <h3 className="text-lg text-gray-200">
