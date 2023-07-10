@@ -47,7 +47,7 @@ export default function GoodPortfolio() {
                 <div className="">
                     <div className="absolute bottom-0 left-0 p-6 text-3xl font-bold text-white uppercase">
                         <Link href="/pages/portfolio">
-                            <h2 className="text-3xl font-bold text-white mb-1 uppercase">Portfolio</h2>
+                            <h2 className="text-4xl font-bold text-white mb-1 uppercase">Portfolio</h2>
                         </Link>
                     </div>
                 </div>
