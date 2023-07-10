@@ -3,14 +3,6 @@ import Link from "next/link";
 export default function Contact() {
     return (
         <>
-            {/* <div
-                className="py-20 h-full rounded-xl relative"
-                style={{
-                    backgroundColor: "#2d3748", // Replace with your desired color
-                    height: "100%", // Adjust the height to your needs
-                    width: "100%", // Adjust the width to your needs
-                }}
-            > */}
             <div
                 // https://res.cloudinary.com/dp04hh5pz/image/upload/v1688933638/Echelonical/stixs_iytchd.png
                 className="py-7 h-full relative rounded-xl"
@@ -25,7 +17,7 @@ export default function Contact() {
                     <h2>Contact Me</h2>
                 </div>
                 {/* <div className=" inline-block"> */}
-                <div className="flex justify-center justify-evenly mt-10 mx-auto  p-5">
+                <div className="flex justify-center justify-evenly mt-20 mx-auto  p-5">
                     <Link className="p-1" href="https://www.linkedin.com/in/jeremynmyers/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                         <img className="bg-white rounded-xl w-24 h-24" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688936610/Echelonical/Untitled_design_4_xrvhru.png" alt="linkedIn Logo" />
                     </Link>

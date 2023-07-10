@@ -1,16 +1,27 @@
 export default function TechStack() {
     return (
         <>
-            <div
+            {/* <div
                 className="py-10 h-full rounded-xl relative"
                 style={{
                     backgroundColor: "rgb(67 20 7)", // Replace with your desired color
                     height: "100%", // Adjust the height to your needs
                     width: "100%", // Adjust the width to your needs
                 }}
+            > */}
+
+            <div
+                // https://res.cloudinary.com/dp04hh5pz/image/upload/v1688935601/Echelonical/32308810-8F92-435E-84EE-56022BE04D69_1_201_a_yvpaak.jpg
+                className="py-8 h-full relative rounded-xl"
+                style={{
+                    backgroundImage:
+                        "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1689015296/Echelonical/3A9F6061-4BD3-4691-9073-1D4B4934F31A_1_105_c_k3m479.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "right 17%",
+                }}
             >
-                <div className="flex flex-col">
-                    <div className="flex flex-row justify-evenly p-2">
+                <div className="flex flex-col ">
+                    <div className="flex flex-row justify-evenly p-2 mt-0 xl:mt-6">
                         <div className="pl-20">
                             <div className="">
                                 <img className="rounded-xl w-12 h-12 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/JavaScript_du3v5i.png" alt="JavaScript logo" title="JavaScript" />
@@ -18,10 +29,10 @@ export default function TechStack() {
                             {/* Javascript */}
                         </div>
                         <div>
+                            {/* Python */}
                             <div className="">
                                 <img className="rounded-xl w-12 h-12 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952439/Echelonical/Python_xumyi4.png" alt="Python logo" title="Python" />
                             </div>
-                            {/* Python */}
                         </div>
                         <div>
                             {/* SQL */}
