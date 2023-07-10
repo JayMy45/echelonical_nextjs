@@ -3,7 +3,7 @@ export default function BannerAboutMe() {
 
     return (
         <>
-            <div className="py-20 h-full" style={{
+            <div className="py-32 h-full" style={{
                 backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1687974820/Echelonical/IMG_0672_kkhlbm.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center"
