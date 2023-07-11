@@ -20,10 +20,10 @@ export default function Done() {
                             {/* Tech Stack Used DIV */}
                             <div className="flex p-1 w-fit border-4 border-slate-800 bg-gray-900 bg-opacity-50 rounded-xl shadow-lg mt-1 ml-3">
                                 <div className="p-1">
+                                    {/* ReactJs */}
                                     <div className="">
-                                        <img className="rounded-xl w-12 h-12 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/JavaScript_du3v5i.png" alt="JavaScript logo" title="JavaScript" />
+                                        <img className="rounded-xl w-12 h-12 mx-auto bg-black p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/ReactJs_zenv6c.png" alt="ReactJS logo" title="ReactJS" />
                                     </div>
-                                    {/* Javascript */}
                                 </div>
                                 <div>
                                     {/* JSON Server */}
@@ -34,10 +34,11 @@ export default function Done() {
                                     </div>
                                 </div>
                                 <div>
-                                    {/* CSS */}
+                                    {/* Bootstrap */}
                                     <div className="p-1">
-                                        <img className="rounded-xl w-12 h-12 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/CSS_ygyrs3.png" alt="CSS logo" title="CSS" />
+                                        <img className="rounded-xl w-12 h-12 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/BootStrap_xxvsay.png" alt="BootStrap logo" title="BootStrap" />
                                     </div>
+
                                 </div>
                                 <div className="p-1">
                                     {/* GitHub */}

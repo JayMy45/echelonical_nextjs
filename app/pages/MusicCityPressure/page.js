@@ -13,16 +13,16 @@ export default function MusicCityPressure() {
                         <h2 className="text-5xl font-bold text-white mt-40 uppercase">Music City Pressure</h2>
                         <h3 className="text-2xl text-gray-200 bg-red-900 w-fit px-5 py-2 rounded-lg ml-3">Backend Capstone</h3>
 
-                        <div className="border-2 bg-slate-200 bg-opacity-50 w-fit p-3 pr-5 ml-3 mt-2 rounded-lg">
+                        <div className="border-2 border-yellow-600 bg-slate-500 bg-opacity-50 w-fit p-3 pr-5 ml-3 mt-2 rounded-lg">
                             <h3 className="text-2xl text-black bg-orange-500 w-fit px-3 py-1 rounded-lg mt-1 ml-3">Tech Stack</h3>
 
                             {/* Tech Stack Used DIV */}
-                            <div className="grid grid-cols-3 p-1 w-fit rounded-xl mt-1 ml-2 border-4 border-indigo-800 bg-indigo-900 bg-opacity-50 shadow-lg">
+                            <div className="grid grid-cols-3 p-1 w-fit rounded-xl mt-1 ml-2 border-4 border-yellow-700 bg-indigo-900 bg-opacity-50 shadow-lg">
                                 <div className="p-2">
+                                    {/* ReactJs */}
                                     <div className="">
-                                        <img className="rounded-xl w-12 h-12 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/JavaScript_du3v5i.png" alt="JavaScript logo" title="JavaScript" />
+                                        <img className="rounded-xl w-12 h-12 mx-auto bg-black p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/ReactJs_zenv6c.png" alt="ReactJS logo" title="ReactJS" />
                                     </div>
-                                    {/* Javascript */}
                                 </div>
                                 <div>
                                     {/* Python Server */}
@@ -44,7 +44,6 @@ export default function MusicCityPressure() {
                                     <div className="p-2">
                                         <img className="rounded-xl w-12 h-12 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955638/Echelonical/BulmaIcon_t4ge8f.png" alt="Bulma logo" title="Bulma" />
                                     </div>
-
                                 </div>
                                 <div>
                                     {/* CSS */}

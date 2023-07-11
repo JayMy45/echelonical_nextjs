@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
     return (
@@ -32,11 +33,43 @@ export default function Page() {
                                     <p className="pb-4 font-normal text-gray-700 dark:text-gray-300">Done‽ is a front-end application designed to streamline household chore management and completion for families. With Done‽, administrators (parents) gain the ability to effortlessly create and assign personalized tasks. Standard users (children) can easily create and access their assigned tasks, marking them as complete once finished.</p>
                                 </div>
 
-                                <div className="">
+                                <div className="flex justify-between">
                                     <a href="/pages/done" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                         Demo Project
                                         <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                                     </a>
+
+                                    {/* Tech Stack Used DIV */}
+                                    <div className="flex p-1 w-fit rounded-xl mt-1 ml-3">
+                                        <div className="p-1">
+                                            {/* React */}
+                                            <div className="">
+                                                <img className="rounded-sm w-fit h-5 mx-auto" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React logo" title="ReactJs" />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            {/* JSON Server */}
+                                            <div className="p-1">
+                                                <Link href="https://github.com/JayMy45/Done-api" target="_blank" rel="noopener noreferrer">
+                                                    <img className="rounded-sm w-fit h-5 mx-auto bg-white hover:bg-indigo-500" src="https://img.shields.io/badge/JSON-%2320232a.svg?style=for-the-badge&logo=json&logoColor=%23FFFFFF" alt="JSON logo" title="JSON" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            {/* Bootstrap */}
+                                            <div className="p-1">
+                                                <img className="rounded-sm w-fit h-5 mx-auto bg-white" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap logo" title="Bootstrap" />
+                                            </div>
+                                        </div>
+                                        <div className="p-1">
+                                            {/* GitHub */}
+                                            <div className="">
+                                                <Link href="https://github.com/JayMy45/Done-Capstone" target="_blank" rel="noopener noreferrer">
+                                                    <img className="rounded-sm w-fit h-5 mx-auto bg-white hover:bg-indigo-500" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub logo" title="GitHub" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -62,11 +95,42 @@ export default function Page() {
                                 <div className="py-3">
                                     <p className="pb-4 font-normal text-gray-700 dark:text-gray-300">Music City Pressure is a back-end project designed to facilitate the scheduling and tracking of home power washing appointments. It empowers customers by providing them with essential information and tools to efficiently manage their appointments. The project encompasses three distinct views to enhance user experience and functionality.</p>
                                 </div>
-                                <div className="">
+                                <div className="flex justify-between">
                                     <a href="/pages/musiccitypressure" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                         Demo Project
                                         <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                                     </a>
+                                    {/* Tech Stack Used DIV */}
+                                    <div className="flex p-1 w-fit rounded-xl mt-1 ml-3">
+                                        <div className="p-1">
+                                            {/* React */}
+                                            <div className="">
+                                                <img className="rounded-sm w-fit h-5 mx-auto" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React logo" title="ReactJs" />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            {/* Django */}
+                                            <div className="p-1">
+                                                <Link href="" target="_blank" rel="noopener noreferrer">
+                                                    <img className="rounded-sm w-fit h-5 mx-auto bg-white hover:bg-indigo-500" src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django logo" title="Django" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            {/* Bulma */}
+                                            <div className="p-1">
+                                                <img className="rounded-sm w-fit h-5 mx-auto bg-white" src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma logo" title="Bulma" />
+                                            </div>
+                                        </div>
+                                        <div className="p-1">
+                                            {/* GitHub */}
+                                            <div className="">
+                                                <Link href="https://github.com/JayMy45/Done-Capstone" target="_blank" rel="noopener noreferrer">
+                                                    <img className="rounded-sm w-fit h-5 mx-auto bg-white hover:bg-indigo-500" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub logo" title="GitHub" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
