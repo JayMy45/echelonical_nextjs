@@ -24,9 +24,7 @@ export default function Contact() {
                     <div className="flex flex-cols justify-center">
                         <div>
                             <div className="">
-                                <Link href="mailto:jnmyers774@gmail.com" title="jnmyers774@gmail.com">
-                                    <img className="rounded-xl w-24 h-20 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688943965/Echelonical/emailNashville-bgWhite_mfyvqo.png" alt="email logo" title="Email Address" />
-                                </Link>
+                                <img className="rounded-xl w-24 h-20 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688943965/Echelonical/emailNashville-bgWhite_mfyvqo.png" alt="email logo" title="Email Address" />
                             </div>
                             <div className="mt-1">
                                 <h2 className="font-bold">jnmyers774@gmail.com</h2>
