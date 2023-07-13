@@ -19,7 +19,7 @@ export default function GoodPortfolio() {
 
                     {/* Done */}
                     <div className="border-2 rounded-lg bg-white shadow-lg p-3 w-auto">
-                        <Link className="" href="/pages/done">
+                        <Link href="/pages/Done">
                             <Image
                                 className="bg-white w-full"
                                 width={150}
@@ -32,7 +32,7 @@ export default function GoodPortfolio() {
 
                     {/* Music City Pressure */}
                     <div className="border-2 rounded-lg bg-white shadow-lg p-3 w-auto">
-                        <Link className="" href="/pages/musiccitypressure">
+                        <Link href="/pages/MusicCityPressure">
                             <Image
                                 className="bg-white w-full"
                                 width={150}
