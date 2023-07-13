@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+    title: 'MusicCItyPressure - Backend Project',
+    description: 'Music City Pressure',
+}
+
+
 export default function MusicCityPressure() {
     return (
         <>

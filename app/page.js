@@ -4,6 +4,10 @@ import GoodPortfolio from "./GoodPortfolio";
 import TechStack from "./GoodTech";
 import Houston from "./Houston";
 
+export const metadata = {
+    title: 'Home - Jeremy Myers ',
+    description: 'Welcome Home',
+}
 
 export default function Goods() {
 
