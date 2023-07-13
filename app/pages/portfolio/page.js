@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+    title: 'Portfolio - JNM',
+    description: 'List of Projects',
+}
+
+
 export default function Page() {
     return (
         <>

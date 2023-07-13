@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+    title: 'Done‽ - Frontend Project',
+    description: 'Frontend Project',
+}
+
 export default function Done() {
     return (
         <>

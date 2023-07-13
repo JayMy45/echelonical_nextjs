@@ -1,4 +1,9 @@
-import BannerAboutMe from "../BannerAboutMe";
+import BannerAboutMe from "./BannerAboutMe";
+
+export const metadata = {
+    title: 'About Me - Jeremy Myers',
+    description: 'About Jeremy Myers',
+}
 
 export default function Page() {
     return (

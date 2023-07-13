@@ -25,28 +25,30 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="md:ml-9 lg:ml-9 xl:ml-9">
-                <div className="flex max-w-full px-4">
+            <nav className="md:ml-9 ">
+                <div className="flex max-w-full px-4 ml-auto">
                     <div className="flex-shrink-0 sm-justify-items-center">
                         <div className="flex">
-                            <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                                <Image
-                                    className="items-center py-1 px-2 "
-                                    src={imageSrc}
-                                    alt="Picture of Dog"
-                                    width={200}
-                                    height={200}
-                                    priority={true}
-                                />
+                            <div className="hidden md:block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                                <Link href="pages">
+                                    <Image
+                                        className="items-center py-1 px-2 "
+                                        src={imageSrc}
+                                        alt="Picture of Dog"
+                                        width={200}
+                                        height={200}
+                                        priority={true}
+                                    />
+                                </Link>
                             </div>
                             <div className="item-center space-x-5 mt-20">
-                                <div className="dark:border-l-2 dark:border-l-white border-l 2 border-l-black p-5 mt-20 h-20">
-                                    <Link href="/good" className="pr-3">
+                                <div className="dark:border-l-2 dark:border-l-white border-l-2 border-l-black p-1 md:p-5 mt-20 md:h-20">
+                                    <Link href={'/'} className="pr-3">
                                         Home
                                     </Link>
-                                    <Link href="#services" className="px-3">
+                                    {/* <Link href="#services" className="px-3">
                                         My Services
-                                    </Link>
+                                    </Link> */}
                                     <Link href="/pages/aboutme" className="px-3">
                                         About Me
                                     </Link>
