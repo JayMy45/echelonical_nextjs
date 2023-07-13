@@ -46,9 +46,9 @@ export const Navbar = () => {
                                     <Link href={'/'} className="pr-3">
                                         Home
                                     </Link>
-                                    <Link href="#services" className="px-3">
+                                    {/* <Link href="#services" className="px-3">
                                         My Services
-                                    </Link>
+                                    </Link> */}
                                     <Link href="/pages/aboutme" className="px-3">
                                         About Me
                                     </Link>

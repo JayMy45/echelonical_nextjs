@@ -1,6 +1,11 @@
 import Image from 'next/image'
 import HoustonBanner from './houston_banner'
 
+export const metadata = {
+  title: 'Houston',
+  description: 'My dog Houston',
+}
+
 export default function HoustonPage() {
   return (
     <div className="flex min-h-screen flex-col p-2">
