@@ -2,6 +2,7 @@
 'use client'
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 
@@ -23,14 +24,16 @@ export default function Houston() {
     return (
         <>
             <div className="border-2 rounded-full bg-black" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <Image
-                    className="items-center rounded-full"
-                    src={imageSrc}
-                    alt="Picture of Dog"
-                    width={200}
-                    height={200}
-                    priority={true}
-                />
+                <Link href="pages">
+                    <Image
+                        className="items-center rounded-full"
+                        src={imageSrc}
+                        alt="Picture of Dog"
+                        width={200}
+                        height={200}
+                        priority={true}
+                    />
+                </Link>
             </div>
         </>
     )

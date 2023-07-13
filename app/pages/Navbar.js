@@ -30,14 +30,16 @@ export const Navbar = () => {
                     <div className="flex-shrink-0 sm-justify-items-center">
                         <div className="flex">
                             <div className="hidden md:block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                                <Image
-                                    className="items-center py-1 px-2 "
-                                    src={imageSrc}
-                                    alt="Picture of Dog"
-                                    width={200}
-                                    height={200}
-                                    priority={true}
-                                />
+                                <Link href="pages">
+                                    <Image
+                                        className="items-center py-1 px-2 "
+                                        src={imageSrc}
+                                        alt="Picture of Dog"
+                                        width={200}
+                                        height={200}
+                                        priority={true}
+                                    />
+                                </Link>
                             </div>
                             <div className="item-center space-x-5 mt-20">
                                 <div className="dark:border-l-2 dark:border-l-white border-l-2 border-l-black p-1 md:p-5 mt-20 md:h-20">
