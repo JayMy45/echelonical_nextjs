@@ -29,7 +29,7 @@ export const Navbar = () => {
                 <div className="flex max-w-full px-4 ml-auto">
                     <div className="flex-shrink-0 sm-justify-items-center">
                         <div className="flex">
-                            <div className="hidden md:block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                            <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <Link href="pages">
                                     <Image
                                         className="items-center py-1 px-2 "

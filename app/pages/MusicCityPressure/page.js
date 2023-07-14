@@ -9,8 +9,8 @@ export const metadata = {
 export default function MusicCityPressure() {
     return (
         <>
-            <div className="mt-10">
-                <div className="py-20 h-screen" style={{
+            <section className="mt-10 p-10">
+                <div className="py-20 min-h-screen" style={{
                     backgroundImage: "linear-gradient(rgba(0,0,0,0.68),rgba(0,0,0,0.3)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1688071197/Echelonical/musicCityPressure.House_wo5l6f.png')",
                     backgroundSize: "contain", // Updated property
                     backgroundPosition: "center",
@@ -72,7 +72,7 @@ export default function MusicCityPressure() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

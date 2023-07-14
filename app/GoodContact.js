@@ -17,7 +17,7 @@ export default function Contact() {
                     <h2>Contact Me</h2>
                 </div>
                 {/* <div className=" inline-block"> */}
-                <div className="flex justify-center justify-evenly mt-20 mx-auto  p-5">
+                <div className="flex block 12pro:hidden justify-center justify-evenly mt-20 mx-auto  p-5">
                     <Link className="p-1" href="https://www.linkedin.com/in/jeremynmyers/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                         <img className="bg-white rounded-xl w-24 h-24" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688936610/Echelonical/Untitled_design_4_xrvhru.png" alt="linkedIn Logo" />
                     </Link>

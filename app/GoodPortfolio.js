@@ -15,7 +15,7 @@ export default function GoodPortfolio() {
                     backgroundPosition: "center",
                 }}
             >
-                <div className="flex space-x-6 p-2 w-9/12 mx-auto my-12 lg:my-5">
+                <div className="flex block 12pro:hidden space-x-6 p-2 w-9/12 mx-auto my-12 lg:my-5">
 
                     {/* Done */}
                     <div className="border-2 rounded-lg bg-white shadow-lg p-3 w-auto">

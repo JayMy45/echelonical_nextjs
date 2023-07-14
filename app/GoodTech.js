@@ -1,15 +1,6 @@
 export default function TechStack() {
     return (
         <>
-            {/* <div
-                className="py-10 h-full rounded-xl relative"
-                style={{
-                    backgroundColor: "rgb(67 20 7)", // Replace with your desired color
-                    height: "100%", // Adjust the height to your needs
-                    width: "100%", // Adjust the width to your needs
-                }}
-            > */}
-
             <div
                 // https://res.cloudinary.com/dp04hh5pz/image/upload/v1688935601/Echelonical/32308810-8F92-435E-84EE-56022BE04D69_1_201_a_yvpaak.jpg
                 className="py-8 h-full relative rounded-xl"
@@ -20,7 +11,7 @@ export default function TechStack() {
                     backgroundPosition: "right 17%",
                 }}
             >
-                <div className="flex flex-col ">
+                <div className="flex flex-col block 12pro:hidden">
                     <div className="flex flex-row justify-evenly p-2 mt-0 xl:mt-6">
                         <div className="pl-20">
                             <div className="">

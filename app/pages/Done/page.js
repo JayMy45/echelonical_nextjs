@@ -9,7 +9,7 @@ export default function Done() {
     return (
         <>
             <div className="mt-20">
-                <div className="py-20 h-screen bg-slate-200" style={{
+                <div className="py-20 min-h-screen bg-slate-200" style={{
                     backgroundImage: "linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0.2,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1688072376/Echelonical/bg-done_jdd3cp.png')",
                     backgroundSize: "contain", // Updated property
                     // backgroundRepeat: "no-repeat",
