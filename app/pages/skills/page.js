@@ -1,3 +1,8 @@
+export const metadata = {
+    title: 'Skills - Jeremy Myers',
+    description: 'List of Skills',
+}
+
 export default function Page() {
     return (
         <>
