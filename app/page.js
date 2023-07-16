@@ -24,7 +24,9 @@ export default function Goods() {
                 </div>
                 <div className="w-full md:absolute md:w-1/2 h-1/2 border-2 md:bottom-0 md:left-0 p-3">
                     {/* 03 */}
+
                     <GoodPortfolio />
+
                 </div>
                 <div className="w-full md:absolute md:w-1/2 h-1/2 border-2 md:bottom-0 md:right-0 p-3">
                     {/* 04 */}
