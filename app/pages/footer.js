@@ -8,7 +8,9 @@ export default function Footer() {
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex">
                         <div className="ml-4">
-                            <img className="rounded-full w-9 h-9 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688943965/Echelonical/emailNashville-bgWhite_mfyvqo.png" alt="email logo" title="jnmyers774@gmail.com" />
+                            <Link href="/pages/contact">
+                                <img className="rounded-full w-9 h-9 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688943965/Echelonical/emailNashville-bgWhite_mfyvqo.png" alt="email logo" title="jnmyers774@gmail.com" />
+                            </Link>
                         </div>
                         <div className="ml-4">
                             <Link className="" href="https://www.linkedin.com/in/jeremynmyers/" target="_blank" rel="noopener noreferrer" title="https://www.linkedin.com/in/jeremynmyers/">
