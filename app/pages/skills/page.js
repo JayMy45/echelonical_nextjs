@@ -13,91 +13,91 @@ export default function Page() {
                         backgroundPosition: "right 17%",
                     }}
                 >
-                    <h1 className="text-7xl">Skills</h1>
+                    <h1 className="font-bold text-4xl md:text-7xl">Skills</h1>
 
-                    <div className="lg:flex flex-col p-10 mt-10">
+                    <div className="lg:flex flex-col p-2 md:p-10 mt-3 md:mt-10">
                         <div className="flex flex-row justify-evenly p-2 mt-0 xl:mt-6">
-                            <div className="pl-20">
-                                <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/JavaScript_du3v5i.png" alt="JavaScript logo" title="JavaScript" />
-                                </div>
+                            <div className="pl-7 md:pl-20">
                                 {/* Javascript */}
+                                <div className="">
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/JavaScript_du3v5i.png" alt="JavaScript logo" title="JavaScript" />
+                                </div>
                             </div>
                             <div>
                                 {/* Python */}
                                 <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952439/Echelonical/Python_xumyi4.png" alt="Python logo" title="Python" />
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952439/Echelonical/Python_xumyi4.png" alt="Python logo" title="Python" />
                                 </div>
                             </div>
                             <div>
                                 {/* SQL */}
-                                <div className="pr-20">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955638/Echelonical/SQLIcon_adoiiw.png" alt="SQL logo" title="SQL" />
+                                <div className="pr-7 md:pr-20">
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955638/Echelonical/SQLIcon_adoiiw.png" alt="SQL logo" title="SQL" />
                                 </div>
                             </div>
 
                         </div>
                         <div className="flex flex-row justify-evenly p-2">
-                            <div className="pl-20">
+                            <div className="pl-7 md:pl-20">
                                 {/* ReactJs */}
                                 <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/ReactJs_zenv6c.png" alt="ReactJS logo" title="ReactJS" />
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/ReactJs_zenv6c.png" alt="ReactJS logo" title="ReactJS" />
                                 </div>
                             </div>
                             <div>
                                 {/* NextJs */}
                                 <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/NextJS_eea64l.png" alt="NextJS logo" title="NextJS" />
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/NextJS_eea64l.png" alt="NextJS logo" title="NextJS" />
                                 </div>
 
                             </div>
                             <div>
                                 {/* Django */}
-                                <div className="pr-20">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952439/Echelonical/Django_nok2hx.png" alt="Django logo" title="Django" />
+                                <div className="pr-7 md:pr-20">
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952439/Echelonical/Django_nok2hx.png" alt="Django logo" title="Django" />
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-row justify-evenly p-2">
-                            <div className="pl-20">
+                            <div className="pl-7 md:pl-20">
                                 {/* GitHub */}
                                 <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/GitHub_bibzbj.png" alt="GitHub logo" title="GitHub" />
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/GitHub_bibzbj.png" alt="GitHub logo" title="GitHub" />
                                 </div>
                             </div>
                             <div>
                                 {/* Bulma */}
                                 <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955638/Echelonical/BulmaIcon_t4ge8f.png" alt="Bulma logo" title="Bulma" />
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955638/Echelonical/BulmaIcon_t4ge8f.png" alt="Bulma logo" title="Bulma" />
                                 </div>
 
                             </div>
                             <div>
                                 {/* Tailwind */}
-                                <div className="pr-20">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/Tailwind_h5mzbg.png" alt="Tailwind CSS logo" title="Tailwind" />
+                                <div className="pr-7 md:pr-20">
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/Tailwind_h5mzbg.png" alt="Tailwind CSS logo" title="Tailwind" />
                                 </div>
 
                             </div>
                         </div>
                         <div className="flex flex-row justify-evenly p-2">
-                            <div className="pl-20">
+                            <div className="pl-7 md:pl-20">
                                 {/* HTML */}
                                 <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/HTML_ypuzpt.png" alt="HTML logo" title="HTML" />
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/HTML_ypuzpt.png" alt="HTML logo" title="HTML" />
                                 </div>
                             </div>
                             <div>
                                 {/* CSS */}
                                 <div className="">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/CSS_ygyrs3.png" alt="CSS logo" title="CSS" />
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688952438/Echelonical/CSS_ygyrs3.png" alt="CSS logo" title="CSS" />
                                 </div>
 
                             </div>
                             <div>
                                 {/* Bootstrap */}
-                                <div className="pr-20">
-                                    <img className="rounded-xl w-24 h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/BootStrap_xxvsay.png" alt="BootStrap logo" title="BootStrap" />
+                                <div className="pr-7 md:pr-20">
+                                    <img className="rounded-xl w-12 h-12 md:w-24 md:h-24 mx-auto bg-white p-1" src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/BootStrap_xxvsay.png" alt="BootStrap logo" title="BootStrap" />
                                 </div>
 
                             </div>

@@ -26,13 +26,13 @@ export const Navbar = () => {
     return (
         <>
             <nav className="md:ml-9 ">
-                <div className="flex max-w-full px-4 ml-auto">
-                    <div className="flex-shrink-0 sm-justify-items-center">
+                <div className="flex flex-col md:flex-row md:items-center max-w-full px-4 ml-auto">
+                    <div className=" sm-justify-items-center">
                         <div className="flex">
-                            <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                            <div className="mt-5 " onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <Link href="pages">
                                     <Image
-                                        className="items-center py-1 px-2 "
+                                        className="items-center py-1 px-2 hidden md:block"
                                         src={imageSrc}
                                         alt="Picture of Dog"
                                         width={200}
@@ -41,8 +41,8 @@ export const Navbar = () => {
                                     />
                                 </Link>
                             </div>
-                            <div className="item-center space-x-5 mt-20">
-                                <div className="dark:border-l-2 dark:border-l-white border-l-2 border-l-black p-1 md:p-5 mt-20 md:h-20">
+                            <div className="mx-auto md:mt-20 md:py-5 ">
+                                <div className="dark:border-l-0 border-l-0 md:border-1 md:border-l-white md:border-l-2 border-l-black md:p-5 mt-20 md:h-20 flex items-center justify-center">
                                     <Link href={'/'} className="pr-3">
                                         Home
                                     </Link>
@@ -54,6 +54,9 @@ export const Navbar = () => {
                                     </Link>
                                     <Link href="/pages/portfolio" className="px-3">
                                         Portfolio
+                                    </Link>
+                                    <Link href="/pages/skills" className="px-3">
+                                        Skills
                                     </Link>
                                 </div>
                             </div>
