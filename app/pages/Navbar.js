@@ -25,7 +25,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="md:ml-9 ">
+            <nav className="md:ml-9">
                 <div className="flex flex-col md:flex-row md:items-center max-w-full px-4 ml-auto">
                     <div className=" sm-justify-items-center">
                         <div className="flex">
@@ -42,8 +42,8 @@ export const Navbar = () => {
                                 </Link>
                             </div>
                             <div className="mx-auto md:mt-20 md:py-5 ">
-                                <div className="dark:border-l-0 border-l-0 md:border-1 md:border-l-white md:border-l-2 border-l-black md:p-5 mt-20 md:h-20 flex items-center justify-center">
-                                    <Link href={'/'} className="pr-3">
+                                <div className="dark:border-l-0 border-l-0 md:border-1 md:border-l-white md:border-l-2 border-l-black md:p-5 mt-10 md:mt-20 md:h-20 flex items-center justify-center">
+                                    <Link href={'/'} className="px-3">
                                         Home
                                     </Link>
                                     {/* <Link href="#services" className="px-3">
