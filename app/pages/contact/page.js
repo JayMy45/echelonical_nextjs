@@ -17,8 +17,8 @@ export default function Contact() {
                 <div className="p-0 md:px-5 text-center">
                     <h1 className="font-bold text-4xl md:text-6xl mt-6 md:mt-10">Contact Me</h1>
                 </div>
-                <div className="flex flex-col md:flex-row w-screen md:divide-x md:divide-slate-900 border-dashed">
-                    <div className="w-full md:w-1/2 p-10 ">
+                <div className="flex flex-col md:flex-row w-screen">
+                    <div className="w-full md:w-1/2 p-10 md:ml-12">
                         <ContactForm />
                     </div>
                     <div className="w-full md:w-1/2 max-h-screen flex items-center justify-center">
