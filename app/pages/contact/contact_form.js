@@ -8,8 +8,22 @@ export default function ContactForm() {
             name: event.target.name.value,
             email: event.target.email.value,
             message: event.target.message.value,
-        }
+        };
         console.log(data);
+        const response = await fetch('/api/contact.js', {
+            method: 'POST',
+            headers: {
+                ContentType: 'application/json',
+            },
+            body: JSON.stringify(data),
+        });
+        if (response.ok) {
+            console.log('response worked');
+            event.target.reset();
+        }
+        if (!response.ok) {
+            console.log('Error sending message');
+        }
     }
 
 

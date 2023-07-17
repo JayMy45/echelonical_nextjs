@@ -12,14 +12,11 @@ export default function Page() {
         <>
             {/* portfolio container*/}
             <div className="flex flex-cols mt-10 border-t-2">
-                <div className="mx-auto ">
-                    <h2 className="font-bold text-gray-200 text-4xl text-center mb-10 mt-10">Portfolio</h2>
-                    <p className=""></p>
+                <div className="mx-auto">
+                    <h2 className="font-bold text-slate-950 dark:text-gray-200 text-4xl text-center mb-10 mt-10">Portfolio</h2>
 
                     {/* card container */}
-                    {/* <div className="flex justify-between mt-3"> */}
-                    <div className="flex flex-wrap lg:justify-between  xl:space-x-12 my-8">
-                        {/* <div className="grid p-10 sm:grid-col-1 md:grid-cols-1 lg:grid-cols-2 xl:grids-cols-2 gap-5"> */}
+                    <div className="flex flex-wrap space-y-5 12pro:space-y-5 lg:space-y-0 lg:justify-between md:space-x-30 lg:space-x-12 m-2">
 
                         {/* card1 - Done?!*/}
                         <div className="max-w-lg mx-auto bg-white border overflow-hidden border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
