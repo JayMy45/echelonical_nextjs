@@ -10,10 +10,10 @@ export default function ContactForm() {
             message: event.target.message.value,
         };
         console.log(data);
-        const response = await fetch('/api/contact.js', {
+        const response = await fetch('/api/contact', {
             method: 'POST',
             headers: {
-                ContentType: 'application/json',
+                'Content-Type': 'application/json',
             },
             body: JSON.stringify(data),
         });
