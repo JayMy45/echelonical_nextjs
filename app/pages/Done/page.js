@@ -6,6 +6,8 @@ export const metadata = {
 }
 
 export default function Done() {
+
+
     return (
         <>
             <div className="mt-10">
@@ -55,8 +57,8 @@ export default function Done() {
                                 </div>
                             </div>
                         </div>
-                        <button className="text-white uppercase border-2 px-8 py-4 font-bold tracking-wider mt-24 shadow-lg">
-                            Check It Out
+                        <button className="text-white uppercase border-4 border-yellow-400 px-8 py-4 font-bold tracking-wider mt-24 shadow-lg bg-orange-500">
+                            Under Construction
                         </button>
                     </div>
                 </div>
