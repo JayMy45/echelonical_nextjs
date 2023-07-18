@@ -2,7 +2,6 @@ import Link from "next/link";
 
 export default function GoodBanner() {
 
-
     return (
         <>
             <Link href="/pages/aboutme" >

@@ -1,6 +1,10 @@
-import Link from "next/link";
 import ContactForm from "./contact_form";
 import ContactIcon from "./contact_icon";
+
+export const metadata = {
+    title: 'Contact Page',
+    description: 'Connect with Jeremy Myers',
+}
 
 export default function Contact() {
     return (
