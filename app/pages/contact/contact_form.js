@@ -77,7 +77,7 @@ export default function ContactForm() {
                         type="email"
                         minLength={5}
                         maxLength={150}
-                        autoComplete="off"
+                        autoComplete="on"
                     />
                 </div>
 
@@ -101,7 +101,10 @@ export default function ContactForm() {
                         type="submit">
                         Submit
                     </button>
-                    <ToastContainer />
+                    <ToastContainer
+                        position='top-center'
+                        autoClose={2000}
+                    />
                 </div>
             </form>
         </>
