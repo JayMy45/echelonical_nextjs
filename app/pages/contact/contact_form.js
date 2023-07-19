@@ -1,10 +1,20 @@
 'use client'
-
+import React from 'react';
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactForm() {
 
     const [loading, setLoading] = useState(false);
+
+    const notifySuccess = () => {
+        toast.success('Email sent successfully');
+    };
+
+    const notifyError = () => {
+        toast.error('Failed to send email');
+    };
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -30,10 +40,12 @@ export default function ContactForm() {
             event.target.name.value = '';
             event.target.email.value = '';
             event.target.message.value = '';
+            notifySuccess();
         }
         if (!response.ok) {
             setLoading(false);
             console.log('Error sending message');
+            notifyError();
         }
     }
 
@@ -65,7 +77,7 @@ export default function ContactForm() {
                         type="email"
                         minLength={5}
                         maxLength={150}
-                        autoComplete="off"
+                        autoComplete="on"
                     />
                 </div>
 
@@ -89,6 +101,10 @@ export default function ContactForm() {
                         type="submit">
                         Submit
                     </button>
+                    <ToastContainer
+                        position='top-center'
+                        autoClose={2000}
+                    />
                 </div>
             </form>
         </>

@@ -67,8 +67,8 @@ export default function MusicCityPressure() {
                                 </div>
                             </div>
                         </div>
-                        <button className="text-white uppercase border-2 px-8 py-4 font-bold tracking-wider shadow-lg mt-20">
-                            Check It Out
+                        <button className="text-white uppercase border-4 border-yellow-400 px-8 py-4 font-bold tracking-wider shadow-lg mt-20 bg-orange-500">
+                            Under Construction
                         </button>
                     </div>
                 </div>
