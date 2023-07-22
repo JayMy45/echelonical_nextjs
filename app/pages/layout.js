@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <div className={inter.className}>
         <div className='content'>
           <Navbar />
-          <div className=''>
+          <div className=' relative z-0'>
             {children}
           </div>
           <Footer />

@@ -60,7 +60,7 @@ export default function ContactForm() {
 
     return (
         <>
-            <form className="p-2 md:p-7 md:ml-20" onSubmit={handleSubmit}>
+            <form className="p-2 lg:p-7 md:ml-5 lg:ml-20" onSubmit={handleSubmit}>
 
                 {/* name */}
                 <div className="w-full flex flex-col my-4">

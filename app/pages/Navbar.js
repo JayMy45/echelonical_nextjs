@@ -25,38 +25,47 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="md:ml-9">
+            <nav
+                className="sticky top-0 z-10 pb-1"
+                style={{
+                    backgroundColor: 'rgb(var(--background-start-rgb), 0.99)',
+                    color: 'rgb(var(--foreground-rgb))'
+                }}
+            >
                 <div className="flex flex-col md:flex-row md:items-center max-w-full px-4 ml-auto">
                     <div className=" sm-justify-items-center">
                         <div className="flex">
-                            <div className="mt-5 " onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                            <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <Link href="pages">
                                     <Image
-                                        className="items-center py-1 px-2 hidden md:block"
+                                        className="items-center px-2 hidden md:block"
                                         src={imageSrc}
                                         alt="Picture of Dog"
-                                        width={200}
-                                        height={200}
+                                        width={150}
+                                        height={150}
                                         priority={true}
                                     />
                                 </Link>
                             </div>
-                            <div className="mx-auto md:mt-20 md:py-5 ">
-                                <div className="dark:border-l-0 border-l-0 md:border-1 md:border-l-white md:border-l-2 border-l-black md:p-5 mt-10 md:mt-20 md:h-20 flex items-center justify-center">
-                                    <Link href={'/'} className="px-3">
-                                        Home
+                            <div className="mx-auto md:mt-14 ">
+                                <div className="dark:border-l-0 border-l-0 md:border-1 md:border-l-white md:border-l-2 border-l-black md:py-1 mt-10 md:mt-16 md:h-14 flex items-center justify-center">
+                                    <Link href={'/'} className="px-1 ml-1 md:text-sm">
+                                        <span className="text-lg md:text-base">Home</span>
                                     </Link>
                                     {/* <Link href="#services" className="px-3">
                                         My Services
                                     </Link> */}
-                                    <Link href="/pages/aboutme" className="px-3">
-                                        About Me
+                                    <Link href="/pages/aboutme" className="px-2  md:text-sm">
+                                        <span className="text-base">About</span>
                                     </Link>
-                                    <Link href="/pages/portfolio" className="px-3">
-                                        Portfolio
+                                    <Link href="/pages/portfolio" className="px-2  md:text-sm">
+                                        <span className="text-base">Portfolio</span>
                                     </Link>
-                                    <Link href="/pages/skills" className="px-3">
-                                        Skills
+                                    <Link href="/pages/skills" className="px-2  md:text-sm">
+                                        <span className="text-base">Skills</span>
+                                    </Link>
+                                    <Link href="/pages/contact" className="px-2 md:text-sm">
+                                        <span className="text-base">Contact</span>
                                     </Link>
                                 </div>
                             </div>
