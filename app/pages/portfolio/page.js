@@ -13,6 +13,7 @@ export default function Page() {
             {/* portfolio container*/}
             <div className="flex flex-cols border-t-2 mt-5">
                 <div className="mx-auto">
+
                     <h2 className="font-bold text-slate-950 dark:text-gray-200 text-4xl text-center mb-6 mt-6">Portfolio</h2>
 
                     {/* card container */}
