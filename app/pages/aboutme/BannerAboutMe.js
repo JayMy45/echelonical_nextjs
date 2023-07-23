@@ -5,7 +5,7 @@ export default function BannerAboutMe() {
 
     return (
         <>
-            <div className="mt-10">
+            <div className="mt-2">
                 <div className="py-3 md:py-32 h-full rounded-xl m-3" style={{
                     backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1687974820/Echelonical/IMG_0672_kkhlbm.jpg')",
                     backgroundSize: "cover",
@@ -16,7 +16,7 @@ export default function BannerAboutMe() {
                             <h1 className="text-5xl font-bold text-white mb-2 uppercase">About Me</h1>
                             <h3 className="text-2xl mb-8 text-gray-200">Jeremy Myers</h3>
                         </div>
-                        <Link href="pages/portfolio" className="text-white uppercase border-2 px-8 py-4 font-bold tracking-wider shadow-lg">
+                        <Link href="pages/portfolio" className="text-white uppercase border-2 px-8 py-2 md:py-4 font-bold tracking-wider shadow-lg">
                             Explore Projects
                         </Link>
                     </div>
