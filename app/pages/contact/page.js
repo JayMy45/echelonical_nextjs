@@ -19,7 +19,7 @@ export default function Contact() {
                 }}
             >
                 <div className="p-0 md:px-5 text-center">
-                    <h1 className="font-bold text-4xl md:text-6xl mt-6 md:mt-10">Contact Me</h1>
+                    <h1 className="text-gray-200 font-bold text-4xl md:text-6xl mt-6 md:mt-10">Contact Me</h1>
                 </div>
                 <div className="flex flex-col md:flex-row w-screen">
                     <div className="w-full md:w-1/2 p-10 md:ml-12">

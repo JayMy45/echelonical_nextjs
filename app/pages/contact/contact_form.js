@@ -64,7 +64,7 @@ export default function ContactForm() {
 
                 {/* name */}
                 <div className="w-full flex flex-col my-4">
-                    <label className="font-semibold text-sm md:text-lg" htmlFor="name">Name</label>
+                    <label className="font-semibold text-sm md:text-lg text-gray-200" htmlFor="name">Name</label>
                     <input
                         id="name"
                         className="p-2 md:p-4 bg-gray-200 text-black rounded-md md:w-11/12"
@@ -78,7 +78,7 @@ export default function ContactForm() {
 
                 {/* email */}
                 <div className="w-full flex flex-col my-4">
-                    <label className="font-semibold text-sm md:text-lg" htmlFor="email">email</label>
+                    <label className="font-semibold text-sm md:text-lg text-gray-200" htmlFor="email">email</label>
                     <input
                         id="email"
                         className="p-2 md:p-4 bg-gray-200 text-black rounded-md md:w-11/12"
@@ -92,7 +92,7 @@ export default function ContactForm() {
 
                 {/* message */}
                 <div className="w-full flex flex-col my-4">
-                    <label className="font-semibold" htmlFor="message">Send a Message</label>
+                    <label className="font-semibold" htmlFor="message text-gray-200">Send a Message</label>
                     <textarea
                         id="message"
                         className="p-2 text-black bg-gray-200 rounded-md md:w-11/12"
@@ -111,13 +111,15 @@ export default function ContactForm() {
                         Submit
                     </button>
 
-                    {/* toast container */}
-                    <ToastContainer
-                        position='top-center'
-                        autoClose={2000}
-                    />
                 </div>
             </form>
+            {/* toast container */}
+            <div className='z-11'>
+                <ToastContainer
+                    position='bottom-center'
+                    autoClose={2000}
+                />
+            </div>
         </>
     )
 }
