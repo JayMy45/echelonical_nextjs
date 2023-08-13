@@ -17,12 +17,18 @@ export default function GoodBanner() {
                     <div className="container mx-auto px-6 mt-40">
                         <div className="absolute top-0 left-0 p-6 text-3xl font-bold text-white uppercase">
 
-                            <h2 className="text-4xl font-bold text-white  uppercase">
+                            <h3 className="text-4xl font-bold text-white uppercase">
                                 About Me
-                            </h2>
-                            <h3 className="text-lg text-gray-200">
-                                Jeremy Myers
                             </h3>
+
+                            <div className="bg-indigo-800 bg-opacity-80 p-2 shadow-lg rounded-xl">
+                                <h2 className="text-xl text-slate-100">
+                                    Jeremy Myers
+                                </h2>
+                                <h4 className="text-sm text-yellow-600 italic">
+                                    Full-Stack Developer
+                                </h4>
+                            </div>
                         </div>
                     </div>
                 </div>
