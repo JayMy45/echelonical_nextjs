@@ -48,7 +48,7 @@ export const Navbar = () => {
                                 </Link>
                             </div>
                             <div className="mx-auto md:mt-14 ">
-                                <div className="dark:border-l-0 border-l-0 md:border-1 md:border-l-white md:border-l-2 border-l-black md:py-1 mt-10 md:mt-16 md:h-14 flex items-center justify-center">
+                                <div className="dark:border-l-0 border-l-0 md:border-1 dark:border-l-white md:border-l-2 border-l-black md:py-1 mt-10 md:mt-16 md:h-14 flex items-center justify-center">
                                     <Link href={'/'} className="px-1 ml-1 md:text-sm">
                                         <span className="text-lg md:text-base">Home</span>
                                     </Link>

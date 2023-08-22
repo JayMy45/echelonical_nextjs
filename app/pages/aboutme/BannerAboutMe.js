@@ -16,13 +16,22 @@ export default function BannerAboutMe() {
                         <h1 className="absolute top-8 left-10 text-5xl font-bold text-white mb-2 uppercase">About Me</h1>
                         <h3 className="absolute top-10 left-10 mt-10 text-2xl">Jeremy Myers</h3>
                     </div>
-                    <div className="absolute top-0 right-0 w-fit  p-2 bg-opacity-40 mb-5">
+                    <div className="hidden md:block md:absolute md:top-0 md:right-0 w-fit p-2 mb-5 mt-32 md:mt-0">
                         <Image
-                            className="bg-slate-700 bg-opacity-95 rounded-xl shadow-xl mx-auto mt-1"
+                            className="bg-slate-700 bg-opacity-70 md:bg-opacity-95 rounded-xl shadow-xl md:mt-1"
                             src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1692543260/Echelonical/JeremyMyers.noBckgrnd_d1wdaf.png"
                             alt="Jeremy Myers"
                             width={175}
                             height={175}
+                        />
+                    </div>
+                    <div className="block md:hidden mx-auto w-fit p-2 mb-5 mt-28">
+                        <Image
+                            className="bg-black bg-opacity-75 rounded-full shadow-xl"
+                            src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1692667554/Echelonical/JeremyMyers.Smile_rm2vjz.png"
+                            alt="Jeremy Myers"
+                            width={200}
+                            height={200}
                         />
                     </div>
 
