@@ -23,7 +23,7 @@ export default function Houston() {
     };
     return (
         <>
-            <div className="border-2 rounded-full bg-black" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div className="border border-slate-200 rounded-full bg-black" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <Link href="pages">
                     <Image
                         className="items-center rounded-full"
