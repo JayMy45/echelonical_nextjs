@@ -1,17 +1,44 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function BannerAboutMe() {
+    const lightBackgroundImage = "https://res.cloudinary.com/dp04hh5pz/image/upload/v1687975833/Echelonical/IMG_0687_ib8ktg.jpg";
+    const darkBackgroundImage = "https://res.cloudinary.com/dp04hh5pz/image/upload/v1687974820/Echelonical/IMG_0672_kkhlbm.jpg"; // Replace with your dark mode background image URL
 
+    const [backgroundImage, setBackgroundImage] = useState(lightBackgroundImage);
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    useEffect(() => {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            setIsDarkMode(true);
+            setBackgroundImage(darkBackgroundImage);
+        } else {
+            setIsDarkMode(false);
+            setBackgroundImage(lightBackgroundImage);
+        }
+    }, []);
 
     return (
+        <>
+            <div className="mt-2">
+                <div className="relative py-3 md:py-32 h-full rounded-xl m-3 min-h-[500px]" style={{
+                    backgroundImage: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('${backgroundImage}')`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "bottom 5px"
+                }}>
+
+
+                    {/* return (
         <>
             <div className="mt-2">
                 <div className="relative py-3 md:py-32 h-full rounded-xl m-3 min-h-[500px]" style={{
                     backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1687974820/Echelonical/IMG_0672_kkhlbm.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "bottom 5px"
-                }}>
+                }}> */}
                     <div>
                         <h1 className="absolute top-8 left-10 text-5xl font-bold text-white mb-2 uppercase">About Me</h1>
                         <h3 className="absolute top-10 left-10 mt-10 text-2xl">Jeremy Myers</h3>
