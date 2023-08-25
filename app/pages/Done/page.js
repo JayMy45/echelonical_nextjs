@@ -15,7 +15,7 @@ export default function Done() {
                     backgroundImage: "linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0.2,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1688072376/Echelonical/bg-done_jdd3cp.png')",
                     backgroundSize: "contain", // Updated property
                     // backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
+                    backgroundPosition: "center ",
                 }}>
                     <div className="container mx-auto px-6 mt-40">
                         <h2 className="text-7xl font-bold text-white mt-40 uppercase">Done‽</h2>
