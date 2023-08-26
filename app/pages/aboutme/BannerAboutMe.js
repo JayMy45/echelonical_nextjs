@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function BannerAboutMe() {
-    const lightBackgroundImage = "https://res.cloudinary.com/dp04hh5pz/image/upload/v1687975833/Echelonical/IMG_0687_ib8ktg.jpg";
+    const lightBackgroundImage = "https://res.cloudinary.com/dp04hh5pz/image/upload/v1693010602/Echelonical/B07E7E88-4452-4F61-BDFF-F98E44FE387E_1_105_c_b2re9m.jpg";
     const darkBackgroundImage = "https://res.cloudinary.com/dp04hh5pz/image/upload/v1687974820/Echelonical/IMG_0672_kkhlbm.jpg"; // Replace with your dark mode background image URL
 
     const [backgroundImage, setBackgroundImage] = useState(lightBackgroundImage);
@@ -31,17 +31,9 @@ export default function BannerAboutMe() {
                 }}>
 
 
-                    {/* return (
-        <>
-            <div className="mt-2">
-                <div className="relative py-3 md:py-32 h-full rounded-xl m-3 min-h-[500px]" style={{
-                    backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dp04hh5pz/image/upload/v1687974820/Echelonical/IMG_0672_kkhlbm.jpg')",
-                    backgroundSize: "cover",
-                    backgroundPosition: "bottom 5px"
-                }}> */}
                     <div>
-                        <h1 className="absolute top-8 left-10 text-5xl font-bold text-white mb-2 uppercase">About Me</h1>
-                        <h3 className="absolute top-10 left-10 mt-10 text-2xl">Jeremy Myers</h3>
+                        <h1 className="absolute top-8 text-green-900 dark:text-white left-10 text-5xl font-bold text-white mb-2 uppercase">About Me</h1>
+                        <h3 className="absolute top-10 text-green-900 dark:text-white left-10 mt-10 text-2xl">Jeremy Myers</h3>
                     </div>
                     <div className="hidden md:block md:absolute md:top-0 md:right-0 w-fit p-2 mb-5 mt-32 md:mt-0">
                         <Image
@@ -63,7 +55,7 @@ export default function BannerAboutMe() {
                     </div>
 
                     <div className="absolute bottom-7 left-0 ml-3">
-                        <Link href="pages/portfolio" className="text-white uppercase border-2 px-8 py-2 md:py-4 font-bold tracking-wider shadow-lg rounded-md">
+                        <Link href="pages/portfolio" className="text-green-900 dark:text-white bg-slate-300 bg-opacity-60 dark:bg-opacity-80 uppercase border px-8 py-2 md:py-4 font-bold tracking-wider shadow-lg rounded-md">
                             Explore Projects
                         </Link>
                     </div>

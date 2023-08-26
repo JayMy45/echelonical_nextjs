@@ -23,7 +23,7 @@ export default function Footer() {
                             </Link>
                         </div>
                     </div>
-                    <div className="mt-2">
+                    <div className="mt-2 text-slate-200">
                         <h2>www.jeremynmyers.com</h2>
                     </div>
                 </div>
