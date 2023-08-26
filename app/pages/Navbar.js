@@ -5,6 +5,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Hamburger from "./hamburger";
 
 export const Navbar = () => {
 
@@ -33,12 +34,12 @@ export const Navbar = () => {
                 }}
             >
                 <div className="flex flex-col md:flex-row md:items-center max-w-full px-4 ml-auto">
-                    <div className=" sm-justify-items-center">
+                    <div className="hidden md:block sm-justify-items-center">
                         <div className="flex">
                             <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <Link href="pages">
                                     <Image
-                                        className="items-center px-2 hidden md:block"
+                                        className="items-center px-2"
                                         src={imageSrc}
                                         alt="Picture of Dog"
                                         width={150}
@@ -71,9 +72,7 @@ export const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    {/* Introduction/Howdie */}
-
-
+                    <Hamburger />
                 </div>
             </nav>
         </>
