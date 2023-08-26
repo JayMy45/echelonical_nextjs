@@ -55,7 +55,7 @@ export default function BannerAboutMe() {
                     </div>
 
                     <div className="absolute bottom-7 left-0 ml-3">
-                        <Link href="pages/portfolio" className="text-green-900 dark:text-white bg-slate-300 bg-opacity-60 dark:bg-opacity-80 uppercase border px-8 py-2 md:py-4 font-bold tracking-wider shadow-lg rounded-md">
+                        <Link href="pages/portfolio" className="text-green-900 dark:text-zinc-800 bg-slate-300 bg-opacity-60 dark:bg-opacity-90 uppercase border px-8 py-2 md:py-4 font-bold tracking-wider shadow-lg rounded-md">
                             Explore Projects
                         </Link>
                     </div>
