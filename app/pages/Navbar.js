@@ -53,9 +53,6 @@ export const Navbar = () => {
                                     <Link href={'/'} className="px-1 ml-1 md:text-sm">
                                         <span className="text-lg md:text-base">Home</span>
                                     </Link>
-                                    {/* <Link href="#services" className="px-3">
-                                        My Services
-                                    </Link> */}
                                     <Link href="/pages/aboutme" className="px-2  md:text-sm">
                                         <span className="text-base">About</span>
                                     </Link>
