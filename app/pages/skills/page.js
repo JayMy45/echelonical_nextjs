@@ -13,7 +13,6 @@ export default function Page() {
 
             <div className="mt-5 text-center">
                 <div
-                    // https://res.cloudinary.com/dp04hh5pz/image/upload/v1688935601/Echelonical/32308810-8F92-435E-84EE-56022BE04D69_1_201_a_yvpaak.jpg
                     className="py-8 h-full relative m-3 md:mx-12 rounded-xl shadow-xl"
                     style={{
                         backgroundImage:
@@ -22,8 +21,8 @@ export default function Page() {
                         backgroundPosition: "right 17%",
                     }}
                 >
-                    <h1 className="font-bold text-4xl md:text-7xl text-slate-100">Skills</h1>
 
+                    <h1 className="font-bold text-4xl md:text-7xl text-slate-100">Skills</h1>
 
                     <div className="p-2 md:p-10 mt-3 md:mt-10 mx-auto max-w-sm md:max-w-5xl">
                         <div className="grid grid-cols-3 gap-7">
