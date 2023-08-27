@@ -11,7 +11,7 @@ export default function Page() {
     return (
         <>
             {/* portfolio container*/}
-            <div className="flex flex-cols border-t-2 mt-5">
+            <div className="flex flex-cols border-t mt-5">
                 <div className="mx-auto">
 
                     <h2 className="font-bold text-slate-950 dark:text-gray-200 text-4xl text-center mb-6 mt-6">Portfolio</h2>
@@ -38,7 +38,7 @@ export default function Page() {
                                                 <h2 className="text-sm md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
                                                     Done&#8253;
                                                 </h2>
-                                                <h3 className="text-xs md:text-sm text-green-400 italic">
+                                                <h3 className="text-xs md:text-sm text-green-700 dark:text-green-500 italic">
                                                     Front-End Project
                                                 </h3>
                                             </a>
@@ -275,10 +275,10 @@ export default function Page() {
                                         <div className="w-40 mt-2">
                                             <a href="#">
                                                 <h2
-                                                    className="text-sm  md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white h-16">
+                                                    className="text-sm  md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white h-5 md:h-16">
                                                     Rewrite the Narrative
                                                 </h2>
-                                                <h3 className="text-xs md:text-sm text-yellow-300 italic">
+                                                <h3 className="text-xs md:text-sm text-blue-700 dark:text-blue-500 italic">
                                                     Front-End Application
                                                 </h3>
                                             </a>
@@ -367,7 +367,7 @@ export default function Page() {
                                     <div className="flex flex-col justify-between md:mt-2 md:ml-1">
                                         <div>
                                             <Image
-                                                className="bg-white dark:bg-stone-300 object-contain rounded-xl"
+                                                className="bg-white dark:bg-stone-100 object-contain rounded-xl"
                                                 width={180}
                                                 height={180}
                                                 src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1693082999/OpClean/OpCleanLOGO.Portfolio_m9ellq.png"
@@ -377,10 +377,10 @@ export default function Page() {
                                         <div className="w-40 mt-2">
                                             <a href="#">
                                                 <h2
-                                                    className="text-sm  md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white h-16">
+                                                    className="text-sm  md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white h-5 md:h-16">
                                                     OpClean
                                                 </h2>
-                                                <h3 className="text-xs md:text-sm text-yellow-300 italic">
+                                                <h3 className="text-xs md:text-sm text-green-500 italic">
                                                     Front-End Application
                                                 </h3>
                                             </a>
