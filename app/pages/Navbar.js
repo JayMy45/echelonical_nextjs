@@ -5,6 +5,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { CgExternal } from "react-icons/cg";
 import Hamburger from "./hamburger";
 
 export const Navbar = () => {
@@ -27,14 +28,14 @@ export const Navbar = () => {
     return (
         <>
             <nav
-                className="sticky top-0 z-10 pb-1"
+                className="sticky top-0 z-10 pb-1 flex items-center"
                 style={{
                     backgroundColor: 'rgb(var(--background-start-rgb), 0.99)',
                     color: 'rgb(var(--foreground-rgb))'
                 }}
             >
-                <div className="flex flex-col md:flex-row md:items-center max-w-full px-4 ml-auto">
-                    <div className="hidden md:block sm-justify-items-center">
+                <div className="flex justify-between md:items-center w-full px-4 ml-auto">
+                    <div className="hidden md:block">
                         <div className="flex">
                             <div className="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <Link href="pages">
@@ -70,6 +71,22 @@ export const Navbar = () => {
                         </div>
                     </div>
                     <Hamburger />
+
+                    {/* Link to Resume */}
+                    <div className="hidden md:block">
+                        <div className="flex justify-start w-fit rounded-md mr-3 bg-indigo-400">
+                            <Link
+                                href="/JNM.Resume.pdf"
+                                className="flex justify-center items-center gap-x-2 w-fit px-6 py-3 "
+                                // download="JNM.Resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <p>Resume</p>
+                                <CgExternal size={20} />
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </>
