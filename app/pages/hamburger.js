@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiFillLinkedin, AiOutlineClose, AiOutlineGithub, AiOutlineMenu } from "react-icons/ai";
+import { CgExternal } from "react-icons/cg";
+
 
 
 export default function Hamburger() {
@@ -114,7 +116,18 @@ export default function Hamburger() {
                             onClick={() => setNavbarOpen(false)
                             }
                         />
-
+                        {/* Link to Resume */}
+                        <div className="flex rounded-sm bg-slate-100 text-zinc-600 text-sm font-semibold w-fit">
+                            <Link
+                                href="/JNM.Resume.pdf"
+                                className="flex justify-center items-center gap-x-2 w-fit px-2 py-1 "
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <p>Resume</p>
+                                <CgExternal size={20} />
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
