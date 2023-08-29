@@ -62,7 +62,4 @@ export const portfolioData = [
             { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/Done-Capstone' }
         ]
     }
-
-
-
 ];
