@@ -21,7 +21,7 @@ export default function Page() {
 
                         {/* Done Container*/}
                         <div className="flex max-w-lg mx-auto bg-white border overflow-hidden border-gray-200 rounded-xl md:rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
-                            <div className="flex flex-col p-4 dark:bg-gray-600 bg-gray-300 shadow-xl">
+                            <div className={`flex flex-col p-4 dark:bg-gray-600 bg-gray-300 shadow-xl`}>
                                 <div className="flex">
                                     <div className="flex flex-col justify-between md:mt-2 md:ml-1">
                                         <div>
@@ -139,7 +139,7 @@ export default function Page() {
                                     <div className="flex flex-col justify-between md:mt-2 md:ml-1">
                                         <div>
                                             <Image
-                                                className="bg-white dark:bg-stone-300 object-contain rounded-xl"
+                                                className={`bg-white dark:bg-stone-300 object-contain rounded-xl`}
                                                 width={180}
                                                 height={180}
                                                 src="https://res.cloudinary.com/dp04hh5pz/image/upload/v1687918656/Echelonical/Music_City_2_zpaokx.png"

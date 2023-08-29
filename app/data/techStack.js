@@ -34,6 +34,7 @@ export const techStack = [
         techName: 'ReactJs',
         techWebsite: 'https://reactjs.org/',
         techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/ReactJs_zenv6c.png',
+        badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'
     },
     {
         id: 7,
@@ -70,5 +71,5 @@ export const techStack = [
         techName: 'Bootstrap',
         techWebsite: 'https://getbootstrap.com/',
         techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/BootStrap_xxvsay.png',
-    },
+    }
 ];
