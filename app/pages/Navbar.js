@@ -74,7 +74,7 @@ export const Navbar = () => {
 
                     {/* Link to Resume */}
                     <div className="hidden md:block">
-                        <div className="flex justify-start w-fit rounded-md mr-3 bg-indigo-400">
+                        <div className="flex justify-start w-fit rounded-md mr-8 bg-indigo-400">
                             <Link
                                 href="/JNM.Resume.pdf"
                                 className="flex justify-center items-center gap-x-2 w-fit px-6 py-3 "
