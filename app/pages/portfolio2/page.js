@@ -66,7 +66,7 @@ export default function Page() {
                                                 {
                                                     tech.map(({ techName, badgeImage, github }) => (
 
-                                                        <div className="m-0.5">
+                                                        <div className="m-0.5" key={`${techName}--${tech.id}`}>
                                                             <div>
                                                                 <Link href={github}
                                                                     target="_blank"
