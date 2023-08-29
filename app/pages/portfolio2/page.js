@@ -17,12 +17,12 @@ export default function Page() {
 
                     <h2 className="font-bold text-slate-950 dark:text-gray-200 text-4xl text-center mb-6 mt-6">Portfolio</h2>
 
-                    {/* card container */}
+                    {/* Main Card container */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 py-5">
 
-                        {/* Done Container*/}
+                        {/* Card*/}
                         {
-                            portfolioData.map(({ id, name, type, description, containerBackgroundColor, imageBackgroundColor, image, tech, link }) => (
+                            portfolioData.map(({ id, name, type, description, containerBackgroundColor, imageBackgroundColor, image, tech, link, textColor }) => (
                                 <div
                                     key={`portfolio--${id}`}
                                     className="flex max-w-lg mx-auto bg-white border overflow-hidden border-gray-200 rounded-xl md:rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700"
@@ -42,10 +42,10 @@ export default function Page() {
                                                 </div>
                                                 <div className="w-40 mt-2">
                                                     <a href="#">
-                                                        <h2 className="text-sm md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+                                                        <h2 className="text-sm md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:h-16">
                                                             {name}
                                                         </h2>
-                                                        <h3 className="text-xs md:text-sm text-green-700 dark:text-green-500 italic">
+                                                        <h3 className={`text-xs md:text-sm ${textColor} italic`}>
                                                             {type}
                                                         </h3>
                                                     </a>
@@ -58,7 +58,7 @@ export default function Page() {
                                             </div>
                                         </div>
 
-                                        {/* Bottom half of DONE Card */}
+                                        {/* Bottom half of Card */}
                                         <div className="flex flex-col mt-2 md:mt-4">
 
                                             {/* Tech Stack Used DIV */}
