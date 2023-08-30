@@ -79,9 +79,6 @@ export default function Page() {
                                                                     </Link>
                                                                 </div>
                                                             </div>
-
-
-
                                                             : <div className="m-0.5" key={`${techName}--${tech.id}`}>
                                                                 <div>
                                                                     <img

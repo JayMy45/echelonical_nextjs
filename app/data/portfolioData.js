@@ -4,7 +4,7 @@ export const portfolioData = [
         name: 'Done‽',
         type: 'Front-End Project',
         description: 'Done‽ is a front-end application designed to streamline household chore management and completion for families. With Done‽, administrators (parents) gain the ability to effortlessly create and assign personalized tasks. Standard users (children) can easily create and access their assigned tasks, marking them as complete once finished.',
-        textColor: 'text-green-700 dark:text-green-500',
+        textColor: 'text-green-700',
         containerBackgroundColor: 'dark:bg-gray-600 bg-gray-300',
         borderColor: 'dark:border-gray-600 border-gray-300',
         imageBackgroundColor: 'bg-white',
