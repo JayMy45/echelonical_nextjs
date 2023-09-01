@@ -33,9 +33,9 @@ export const portfolioData = [
         tech: [
             { techName: 'React', badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB', github: '' },
             { techName: 'Python', badgeImage: 'https://img.shields.io/badge/Python-%2320232a.svg?style=for-the-badge&logo=python&logoColor=%23FFFFFF', github: '' },
-            { techName: 'Django', badgeImage: 'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white', github: '' },
+            { techName: 'Django', badgeImage: 'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white', github: 'https://github.com/JayMy45/music-city-pressure-SERVER' },
             { techName: 'Bulma', badgeImage: 'https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white', github: '' },
-            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/Done-Capstone' }
+            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/music-city-pressure-CLIENT' }
         ]
     },
     {
@@ -53,7 +53,7 @@ export const portfolioData = [
         tech: [
             { techName: 'NextJs', badgeImage: 'https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white', github: '' },
             { techName: 'Tailwind CSS', badgeImage: 'https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white', github: '' },
-            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/Done-Capstone' }
+            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/rewritingNarratives' }
         ]
     },
     {
@@ -71,7 +71,7 @@ export const portfolioData = [
         tech: [
             { techName: 'NextJs', badgeImage: 'https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white', github: '' },
             { techName: 'Tailwind CSS', badgeImage: 'https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white', github: '' },
-            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/Done-Capstone' }
+            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/op_clean_exteriors' }
         ]
     }
 ];
