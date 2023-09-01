@@ -14,7 +14,7 @@ export default async function Page({ params }) {
             </div>
 
             <section>
-                <div className="button rounded-lg border w-fit p-2 ml-16 mt-2 hover:bg-indigo-700 hover:font-bold hover:border-yellow-400">
+                <div className="button rounded-lg border w-fit p-2 ml-16 mt-2 text-black bg-slate-300 bg-opacity-80 hover:bg-indigo-700 hover:font-bold hover:border-purple-800 hover:text-white shadow-lg">
                     <a href="/pages/skills">
                         <h3 className="text-center">Back to Skills</h3>
                     </a>
