@@ -73,7 +73,7 @@ export default function Page() {
                                                                         rel="noopener noreferrer"
                                                                     >
                                                                         <img
-                                                                            className="rounded-sm w-fit mx-auto"
+                                                                            className="rounded-sm w-fit mx-auto hover:rounded-full"
                                                                             src={badgeImage}
                                                                             alt={`${techName} logo`}
                                                                             title={`${techName}`} />
