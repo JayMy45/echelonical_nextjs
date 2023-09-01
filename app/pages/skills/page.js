@@ -32,7 +32,7 @@ export default function Page() {
                                         className="">
                                         <p className="text-xs md:text-base text-slate-200">{techName}</p>
                                         <div className="">
-                                            <img className="rounded-xl w-12 h-12 p-1 md:w-24 md:h-24 mx-auto bg-white" src={techLogo} alt={techName} title={techWebsite} />
+                                            <img className="rounded-xl w-12 h-12 p-1 md:w-24 md:h-24 mx-auto bg-white" src={techLogo} alt={techName} title={"My journey with " + techName} />
                                         </div>
                                     </Link>
                                 </div>
