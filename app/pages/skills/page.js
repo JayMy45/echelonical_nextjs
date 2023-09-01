@@ -1,5 +1,4 @@
 import { techStack } from "app/data/techStack"
-import Image from "next/image"
 import Link from "next/link"
 
 export const metadata = {
@@ -29,9 +28,7 @@ export default function Page() {
                             {techStack.map(({ id, techName, techWebsite, techLogo }) => (
                                 <div className="mx-auto" key={`tech--${id}`}>
                                     <Link
-                                        href={techWebsite}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                        href={`/pages/skills/${id}`}
                                         className="">
                                         <p className="text-xs md:text-base text-slate-200">{techName}</p>
                                         <div className="">
@@ -47,3 +44,12 @@ export default function Page() {
         </>
     )
 }
+
+export async function getStaticPaths() {
+    const paths = techStack.map(item => {
+        return { params: { id: item.id.toString(), techLogo: item.techLogo } };
+    });
+    return { paths, fallback: true };
+}
+
+
