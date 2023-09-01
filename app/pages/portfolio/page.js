@@ -70,7 +70,8 @@ export default function Page() {
                                                                 <div>
                                                                     <Link href={github}
                                                                         target="_blank"
-                                                                        rel="noopener noreferrer">
+                                                                        rel="noopener noreferrer"
+                                                                    >
                                                                         <img
                                                                             className="rounded-sm w-fit mx-auto"
                                                                             src={badgeImage}
@@ -97,6 +98,8 @@ export default function Page() {
                                         {/* Project Button */}
                                         <div className="mx-auto md:mx-0 md:mt-4">
                                             <Link href={link}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
                                                 className="inline-flex items-center px-3 py-2 text-sm font-semibold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                                 {demoType}
                                                 <svg

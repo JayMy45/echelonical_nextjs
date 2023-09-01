@@ -1,3 +1,5 @@
+import Layout from "app/layout"
+
 export default function Page({ params }) {
     return (
         <>
