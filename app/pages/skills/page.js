@@ -1,5 +1,4 @@
 import { techStack } from "app/data/techStack"
-import Image from "next/image"
 import Link from "next/link"
 
 export const metadata = {
@@ -26,16 +25,14 @@ export default function Page() {
 
                     <div className="p-2 md:p-10 mt-3 md:mt-10 mx-auto max-w-sm md:max-w-5xl">
                         <div className="grid grid-cols-3 gap-7">
-                            {techStack.map(({ id, techName, techWebsite, techLogo }) => (
+                            {techStack.map(({ id, techName, techLogo }) => (
                                 <div className="mx-auto" key={`tech--${id}`}>
                                     <Link
-                                        href={techWebsite}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                        href={`/pages/skills/${id}`}
                                         className="">
                                         <p className="text-xs md:text-base text-slate-200">{techName}</p>
                                         <div className="">
-                                            <img className="rounded-xl w-12 h-12 p-1 md:w-24 md:h-24 mx-auto bg-white" src={techLogo} alt={techName} title={techWebsite} />
+                                            <img className="rounded-xl w-12 h-12 p-1 md:w-24 md:h-24 mx-auto bg-white" src={techLogo} alt={techName} title={"My journey with " + techName} />
                                         </div>
                                     </Link>
                                 </div>
@@ -47,3 +44,5 @@ export default function Page() {
         </>
     )
 }
+
+
