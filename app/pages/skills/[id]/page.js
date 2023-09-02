@@ -44,21 +44,19 @@ export default async function Page({ params }) {
                                 {
                                     portfolioData && portfolioData.map((portfolioItem, index) => {
                                         return portfolioItem.tech.map((portTech, index) => {
-                                            // console.log('portTech.techName', portTech.techName);
                                             return (
                                                 <div key={index}>
                                                     {portTech.techName === tech.techName
-                                                        // nested ternary operator to render link with different opening protocols
+                                                        // nested ternary to render links with different opening protocols
                                                         ? portfolioItem.demoType === 'Demo Project'
                                                             //* if true open link on same page
                                                             ? <div className="p-3">
                                                                 <Link
-                                                                    href={portfolioItem.link}
-                                                                >
+                                                                    href={portfolioItem.link}>
                                                                     <Image
-                                                                        className="rounded-md w-fit bg-slate-300"
+                                                                        className="rounded-md w-fit bg-slate-100"
                                                                         src={portfolioItem.image}
-                                                                        alt={`${portfolioItem.techName} logo`}
+                                                                        alt={`${portfolioItem.name} logo`}
                                                                         title={`${portfolioItem.name}`}
                                                                         height={50}
                                                                         width={50}
@@ -73,9 +71,9 @@ export default async function Page({ params }) {
                                                                     rel="noopener noreferrer"
                                                                 >
                                                                     <Image
-                                                                        className="rounded-md w-fit bg-slate-300"
+                                                                        className="rounded-md w-fit bg-slate-100"
                                                                         src={portfolioItem.image}
-                                                                        alt={`${portfolioItem.techName} logo`}
+                                                                        alt={`${portfolioItem.name} logo`}
                                                                         title={`${portfolioItem.name}`}
                                                                         height={50}
                                                                         width={50}
