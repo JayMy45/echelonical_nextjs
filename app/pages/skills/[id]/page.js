@@ -58,8 +58,8 @@ export default async function Page({ params }) {
                                                                         src={portfolioItem.image}
                                                                         alt={`${portfolioItem.name} logo`}
                                                                         title={`${portfolioItem.name}`}
-                                                                        height={50}
-                                                                        width={50}
+                                                                        height={90}
+                                                                        width={90}
                                                                     />
                                                                 </Link>
                                                             </div>
@@ -75,8 +75,8 @@ export default async function Page({ params }) {
                                                                         src={portfolioItem.image}
                                                                         alt={`${portfolioItem.name} logo`}
                                                                         title={`${portfolioItem.name}`}
-                                                                        height={50}
-                                                                        width={50}
+                                                                        height={90}
+                                                                        width={90}
                                                                     />
                                                                 </Link>
                                                             </div>
