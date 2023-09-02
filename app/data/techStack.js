@@ -62,7 +62,7 @@ export const techStack = [
     },
     {
         id: 11,
-        techName: 'Tailwind',
+        techName: 'Tailwind CSS',
         techWebsite: 'https://tailwindcss.com/',
         techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/Tailwind_h5mzbg.png',
     },

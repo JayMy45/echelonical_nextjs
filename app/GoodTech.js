@@ -17,7 +17,7 @@ export default function TechStack() {
 
 
 
-                    <div className="absolute bottom-0 right-0 p-6 text-4xl font-bold text-white uppercase">
+                    <div className="absolute bottom-0 md:right-0 p-6 text-4xl font-bold text-white uppercase">
                         <h2>Skills</h2>
                     </div>
                 </div>
