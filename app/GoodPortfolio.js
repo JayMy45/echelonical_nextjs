@@ -45,10 +45,8 @@ export default function GoodPortfolio() {
                     </div> */}
                     {/* </div> */}
 
-                    <div className="">
-                        <div className="absolute block right-0 bottom-0 md:left-0 p-6 text-3xl font-bold text-white uppercase">
-                            <h2 className="text-4xl font-bold text-white mb-1 uppercase">Portfolio</h2>
-                        </div>
+                    <div className="absolute  right-0 sm:bottom-0 md:left-0 p-6 text-4xl font-bold text-white uppercase top-0 md:top-auto">
+                        <h2 className="text-4xl font-bold text-white mb-1 uppercase">Portfolio</h2>
                     </div>
                 </div>
             </Link>
