@@ -15,7 +15,7 @@ export const portfolioData = [
             { techName: 'React', badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB', github: '' },
             { techName: 'JSON', badgeImage: 'https://img.shields.io/badge/JSON-%2320232a.svg?style=for-the-badge&logo=json&logoColor=%23FFFFFF', github: 'https://github.com/JayMy45/Done-api' },
             { techName: 'Bootstrap', badgeImage: 'https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white', github: '' },
-            { techName: 'Github', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/Done-Capstone' }
+            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/Done-Capstone' }
         ]
     },
     {
