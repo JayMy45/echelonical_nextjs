@@ -71,5 +71,29 @@ export const techStack = [
         techName: 'Bootstrap',
         techWebsite: 'https://getbootstrap.com/',
         techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/BootStrap_xxvsay.png',
+    },
+    {
+        id: 13,
+        techName: 'Canva',
+        techWebsite: 'https://www.canva.com/',
+        techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1693677183/Echelonical/Canva_gqsstx.png',
+    },
+    {
+        id: 14,
+        techName: 'Figma',
+        techWebsite: 'https://www.figma.com/',
+        techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1693677183/Echelonical/Figma_a8yjjl.png',
+    },
+    {
+        id: 15,
+        techName: 'Nodemailer',
+        techWebsite: 'https://nodemailer.com/about/',
+        techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1693677183/Echelonical/Nodemailer_dqjwrn.png',
+    },
+    {
+        id: 16,
+        techName: 'drawSQL',
+        techWebsite: 'https://drawsql.app/',
+        techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1693677183/Echelonical/drawSQL_hsz5r4.png',
     }
 ];
