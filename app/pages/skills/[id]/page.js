@@ -37,7 +37,7 @@ export default async function Page({ params }) {
                         </div>
                         <div className="grid grid-row-2 border w-2/3">
                             <div className="mx-auto my-auto">
-                                <h2>Projects using {tech.techName}</h2>
+                                <h2><span className="font-semibold text-2xl">Projects</span> using <span className="text-yellow-200">{tech.techName}</span></h2>
                             </div>
                             <div className="flex mx-auto my-auto">
 
