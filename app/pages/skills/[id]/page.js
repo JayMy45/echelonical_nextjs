@@ -21,7 +21,10 @@ export default async function Page({ params }) {
                     <div className="flex flex-row w-full border">
                         <div className="w-1/3 p-2">
                             <div className="mx-auto bg-white p-3 rounded-md border w-fit">
-                                <Link href={tech.techWebsite}>
+                                <Link href={tech.techWebsite}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <Image
                                         src={tech.techLogo}
                                         width={180}
@@ -45,20 +48,40 @@ export default async function Page({ params }) {
                                             return (
                                                 <div key={index}>
                                                     {portTech.techName === tech.techName
-                                                        ? <div className="p-3">
-                                                            <Link
-                                                                href={portfolioItem.link}
-                                                            >
-                                                                <Image
-                                                                    className="rounded-md w-fit bg-slate-300"
-                                                                    src={portfolioItem.image}
-                                                                    alt={`${portfolioItem.techName} logo`}
-                                                                    title={`${portfolioItem.name}`}
-                                                                    height={50}
-                                                                    width={50}
-                                                                />
-                                                            </Link>
-                                                        </div>
+                                                        // nested ternary operator to render link with different opening protocols
+                                                        ? portfolioItem.demoType === 'Demo Project'
+                                                            //* if true open link on same page
+                                                            ? <div className="p-3">
+                                                                <Link
+                                                                    href={portfolioItem.link}
+                                                                >
+                                                                    <Image
+                                                                        className="rounded-md w-fit bg-slate-300"
+                                                                        src={portfolioItem.image}
+                                                                        alt={`${portfolioItem.techName} logo`}
+                                                                        title={`${portfolioItem.name}`}
+                                                                        height={50}
+                                                                        width={50}
+                                                                    />
+                                                                </Link>
+                                                            </div>
+                                                            //* if false open link in new tab
+                                                            : <div className="p-3">
+                                                                <Link
+                                                                    href={portfolioItem.link}
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                >
+                                                                    <Image
+                                                                        className="rounded-md w-fit bg-slate-300"
+                                                                        src={portfolioItem.image}
+                                                                        alt={`${portfolioItem.techName} logo`}
+                                                                        title={`${portfolioItem.name}`}
+                                                                        height={50}
+                                                                        width={50}
+                                                                    />
+                                                                </Link>
+                                                            </div>
                                                         : <></>
                                                     }
                                                 </div>
