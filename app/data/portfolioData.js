@@ -31,7 +31,7 @@ export const portfolioData = [
         image: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1687918656/Echelonical/Music_City_2_zpaokx.png',
         link: '/pages/MusicCityPressure',
         tech: [
-            { techName: 'React', badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB', github: '' },
+            { techName: 'ReactJs', badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB', github: '' },
             { techName: 'Python', badgeImage: 'https://img.shields.io/badge/Python-%2320232a.svg?style=for-the-badge&logo=python&logoColor=%23FFFFFF', github: '' },
             { techName: 'Django', badgeImage: 'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white', github: 'https://github.com/JayMy45/music-city-pressure-SERVER' },
             { techName: 'Bulma', badgeImage: 'https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white', github: '' },
