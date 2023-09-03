@@ -60,35 +60,40 @@ export default function Page() {
                                         {/* Bottom half of Card */}
                                         <div className="flex flex-col mt-2 md:mt-4">
 
-                                            {/* Tech Stack Used */}
+                                            {/* Tech Stack Used Badges*/}
                                             <div className="hidden md:flex w-fit">
                                                 {
 
-                                                    tech.map(({ techName, badgeImage, github }) => (
-                                                        github
-                                                            ? <div className="m-0.5" key={`${techName}--${tech.id}`}>
-                                                                <div>
-                                                                    <Link href={github}
-                                                                        target="_blank"
-                                                                        rel="noopener noreferrer"
-                                                                    >
+                                                    tech.map(({ techName, badgeImage, github, majorTech }) => (
+                                                        // if the tech is a showcase skill then render the badge within portfolio card
+                                                        majorTech
+
+                                                            // if github link exists, render badge with link to
+                                                            ? github
+                                                                ? <div className="m-0.5" key={`${techName}--${tech.id}`}>
+                                                                    <div>
+                                                                        <Link href={github}
+                                                                            target="_blank"
+                                                                            rel="noopener noreferrer"
+                                                                        >
+                                                                            <img
+                                                                                className="rounded-sm w-fit mx-auto hover:rounded-full"
+                                                                                src={badgeImage}
+                                                                                alt={`${techName} logo`}
+                                                                                title={`${techName}`} />
+                                                                        </Link>
+                                                                    </div>
+                                                                </div>
+                                                                : <div className="m-0.5" key={`${techName}--${tech.id}`}>
+                                                                    <div>
                                                                         <img
-                                                                            className="rounded-sm w-fit mx-auto hover:rounded-full"
+                                                                            className="rounded-sm w-fit mx-auto"
                                                                             src={badgeImage}
                                                                             alt={`${techName} logo`}
                                                                             title={`${techName}`} />
-                                                                    </Link>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            : <div className="m-0.5" key={`${techName}--${tech.id}`}>
-                                                                <div>
-                                                                    <img
-                                                                        className="rounded-sm w-fit mx-auto"
-                                                                        src={badgeImage}
-                                                                        alt={`${techName} logo`}
-                                                                        title={`${techName}`} />
-                                                                </div>
-                                                            </div>
+                                                            : null
 
                                                     ))
                                                 }
