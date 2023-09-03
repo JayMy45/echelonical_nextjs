@@ -25,7 +25,7 @@ export default function Page() {
 
                     <div className="p-2 md:p-10 mt-3 md:mt-10 mx-auto max-w-sm md:max-w-5xl">
                         <div className="grid grid-cols-3 gap-7">
-                            {techStack.map(({ id, techName, techLogo }) => (
+                            {techStack.map(({ id, techName, techLogo, majorTech }) => (
                                 <div className="mx-auto" key={`tech--${id}`}>
                                     <Link
                                         href={`/pages/skills/${id}`}
