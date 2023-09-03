@@ -43,6 +43,7 @@ export const portfolioData = [
             { techName: 'Python', badgeImage: 'https://img.shields.io/badge/Python-%2320232a.svg?style=for-the-badge&logo=python&logoColor=%23FFFFFF', github: '', majorTech: true },
             { techName: 'Django', badgeImage: 'https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white', github: 'https://github.com/JayMy45/music-city-pressure-SERVER', majorTech: true },
             { techName: 'Canva', badgeImage: 'https://img.shields.io/badge/Canva-%2320232a.svg?style=for-the-badge&logo=canva&logoColor=white', github: '', majorTech: true },
+            { techName: 'drawSQL', badgeImage: 'https://img.shields.io/badge/drawSQL-%2320232a.svg?style=for-the-badge&logo=drawsql&logoColor=white', github: '', majorTech: false },
             { techName: 'Bulma', badgeImage: 'https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white', github: '', majorTech: true },
             { techName: 'Postman', badgeImage: 'https://img.shields.io/badge/Postman-%2320232a.svg?style=for-the-badge&logo=postman&logoColor=white', github: '', majorTech: false },
             { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/music-city-pressure-CLIENT', majorTech: true }
@@ -64,6 +65,10 @@ export const portfolioData = [
             { techName: 'HTML', badgeImage: 'https://img.shields.io/badge/HTML-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26', github: '', majorTech: false },
             { techName: 'CSS', badgeImage: 'https://img.shields.io/badge/CSS-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%231572B6', github: '', majorTech: false },
             { techName: 'JavaScript', badgeImage: 'https://img.shields.io/badge/JavaScript-%2320232a.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E', github: '', majorTech: false },
+            {
+                techName: 'Nodemailer', badgeImage: 'https://img.shields.io/badge/Nodemailer-%2320232a.svg?style=for-the-badge&logo=nodemailer&logoColor=white',
+                github: '', majorTech: false
+            },
             { techName: 'ReactJs', badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB', github: '', majorTech: true },
             { techName: 'NextJs', badgeImage: 'https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white', github: '', majorTech: true },
             { techName: 'Canva', badgeImage: 'https://img.shields.io/badge/Canva-%2320232a.svg?style=for-the-badge&logo=canva&logoColor=white', github: '', majorTech: true },
@@ -87,6 +92,10 @@ export const portfolioData = [
             { techName: 'HTML', badgeImage: 'https://img.shields.io/badge/HTML-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26', github: '', majorTech: false },
             { techName: 'CSS', badgeImage: 'https://img.shields.io/badge/CSS-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%231572B6', github: '', majorTech: false },
             { techName: 'JavaScript', badgeImage: 'https://img.shields.io/badge/JavaScript-%2320232a.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E', github: '', majorTech: false },
+            {
+                techName: 'Nodemailer', badgeImage: 'https://img.shields.io/badge/Nodemailer-%2320232a.svg?style=for-the-badge&logo=nodemailer&logoColor=white',
+                github: '', majorTech: false
+            },
             { techName: 'ReactJs', badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB', github: '', majorTech: true },
             { techName: 'NextJs', badgeImage: 'https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white', github: '', majorTech: true },
             { techName: 'Canva', badgeImage: 'https://img.shields.io/badge/Canva-%2320232a.svg?style=for-the-badge&logo=canva&logoColor=white', github: '', majorTech: true },
