@@ -29,24 +29,24 @@ export const techStack = [
     },
     {
         id: 5,
-        techName: 'SQL',
-        techWebsite: 'https://www.w3schools.com/sql/',
-        techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955638/Echelonical/SQLIcon_adoiiw.png',
-        badgeImage: 'https://img.shields.io/badge/SQL-%2320232a.svg?style=for-the-badge&logo=postgresql&logoColor=white',
-    },
-    {
-        id: 6,
         techName: 'ReactJs',
         techWebsite: 'https://reactjs.org/',
         techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/ReactJs_zenv6c.png',
         badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB',
     },
     {
-        id: 7,
+        id: 6,
         techName: 'NextJs',
         techWebsite: 'https://nextjs.org/',
         techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955106/Echelonical/NextJS_eea64l.png',
         badgeImage: 'https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white'
+    },
+    {
+        id: 7,
+        techName: 'SQL',
+        techWebsite: 'https://www.w3schools.com/sql/',
+        techLogo: 'https://res.cloudinary.com/dp04hh5pz/image/upload/v1688955638/Echelonical/SQLIcon_adoiiw.png',
+        badgeImage: 'https://img.shields.io/badge/SQL-%2320232a.svg?style=for-the-badge&logo=postgresql&logoColor=white',
     },
     {
         id: 8,

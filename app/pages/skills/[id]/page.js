@@ -42,7 +42,7 @@ export default async function Page({ params }) {
                             <div className="flex mx-auto my-auto">
 
                                 {
-                                    portfolioData && portfolioData.map((portfolioItem, index) => {
+                                    portfolioData && portfolioData.map((portfolioItem) => {
                                         return portfolioItem.tech.map((portTech, index) => {
                                             return (
                                                 <div key={index}>
