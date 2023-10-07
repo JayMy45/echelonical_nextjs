@@ -41,7 +41,7 @@ export default function Page() {
                                                 </div>
                                                 <div className="w-40 mt-2">
                                                     <a href="#">
-                                                        <h2 className="text-sm md:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:h-16">
+                                                        <h2 className="text-sm md:text-md font-bold tracking-tight text-gray-900 dark:text-gray-100 md:h-16">
                                                             {name}
                                                         </h2>
                                                         <h3 className={`text-xs md:text-sm ${textColor} italic`}>
