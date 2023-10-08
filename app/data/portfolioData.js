@@ -115,7 +115,7 @@ export const portfolioData = [
         textColor: ' dark:text-gray-200 text-gray-800',
         containerBackgroundColor: 'dark:bg-orange-900 bg-slate-300',
         detailsBackgroundURL: '',
-        borderColor: 'dark:border-yellow-800 border-slate-300',
+        borderColor: 'dark:border-yellow-900 border-slate-300',
         imageBackgroundColor: 'bg-white dark:bg-black',
         demoType: 'Visit Website',
         image: '/jlsLOGO.1.png',
