@@ -146,7 +146,7 @@ export const portfolioData = [
         borderColor: 'dark:border-yellow-900 border-slate-300',
         imageBackgroundColor: 'bg-white dark:bg-black',
         demoType: 'Visit Website',
-        image: '/smoothlogo.png',
+        image: '/smoothlogo1.png',
         link: 'https://www.joneslandscapingservice.com/',
         tech: [
             { techName: 'HTML', badgeImage: 'https://img.shields.io/badge/HTML-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26', github: '', majorTech: false },
