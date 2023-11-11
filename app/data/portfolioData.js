@@ -134,5 +134,33 @@ export const portfolioData = [
             { techName: 'Tailwind CSS', badgeImage: 'https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white', github: '', majorTech: true },
             { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/op_clean_exteriors', majorTech: true }
         ]
+    },
+    {
+        id: 5,
+        name: 'Smooth Operation',
+        type: 'Front-End Application',
+        description: 'ASEA is a health and wellness company known for its cellular health products based on Redox Signaling technology, offering a range of products that promote cellular function and skin care. GOFINITY is a business platform in the beauty industry, providing entrepreneurs with the opportunity to earn.',
+        textColor: ' dark:text-gray-200 text-gray-800',
+        containerBackgroundColor: 'dark:bg-orange-900 bg-slate-300',
+        detailsBackgroundURL: '',
+        borderColor: 'dark:border-yellow-900 border-slate-300',
+        imageBackgroundColor: 'bg-white dark:bg-black',
+        demoType: 'Visit Website',
+        image: '/smoothlogo.png',
+        link: 'https://www.joneslandscapingservice.com/',
+        tech: [
+            { techName: 'HTML', badgeImage: 'https://img.shields.io/badge/HTML-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26', github: '', majorTech: false },
+            { techName: 'CSS', badgeImage: 'https://img.shields.io/badge/CSS-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%231572B6', github: '', majorTech: false },
+            { techName: 'JavaScript', badgeImage: 'https://img.shields.io/badge/JavaScript-%2320232a.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E', github: '', majorTech: false },
+            {
+                techName: 'Nodemailer', badgeImage: 'https://img.shields.io/badge/Nodemailer-%2320232a.svg?style=for-the-badge&logo=nodemailer&logoColor=white',
+                github: '', majorTech: false
+            },
+            { techName: 'ReactJs', badgeImage: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB', github: '', majorTech: true },
+            { techName: 'NextJs', badgeImage: 'https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white', github: '', majorTech: true },
+            { techName: 'Canva', badgeImage: 'https://img.shields.io/badge/Canva-%2320232a.svg?style=for-the-badge&logo=canva&logoColor=white', github: '', majorTech: false },
+            { techName: 'Tailwind CSS', badgeImage: 'https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white', github: '', majorTech: true },
+            { techName: 'GitHub', badgeImage: 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white', github: 'https://github.com/JayMy45/op_clean_exteriors', majorTech: true }
+        ]
     }
 ];
