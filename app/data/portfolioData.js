@@ -139,7 +139,7 @@ export const portfolioData = [
         id: 5,
         name: 'Smooth Operation',
         type: 'Front-End Application',
-        description: 'ASEA is a health and wellness company known for its cellular health products based on Redox Signaling technology, offering a range of products that promote cellular function and skin care. GOFINITY is a business platform in the beauty industry, providing entrepreneurs with the opportunity to earn.',
+        description: 'Smooth Operation is a health and wellness website offering products like REDOXEnergy and Skinny Gummies, aimed at improving overall well-being. It features a user-friendly layout, showcasing items like Scalp Elixir and ASEA Redox skincare for health-conscious individuals.',
         textColor: ' dark:text-gray-200 text-gray-800',
         containerBackgroundColor: 'dark:bg-blue-950 bg-slate-400',
         detailsBackgroundURL: '',
