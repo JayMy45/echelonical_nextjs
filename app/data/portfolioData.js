@@ -147,7 +147,7 @@ export const portfolioData = [
         imageBackgroundColor: 'bg-white dark:bg-black',
         demoType: 'Visit Website',
         image: '/smoothlogo1.png',
-        link: 'https://www.joneslandscapingservice.com/',
+        link: 'https://smooth-operation.vercel.app/',
         tech: [
             { techName: 'HTML', badgeImage: 'https://img.shields.io/badge/HTML-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26', github: '', majorTech: false },
             { techName: 'CSS', badgeImage: 'https://img.shields.io/badge/CSS-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%231572B6', github: '', majorTech: false },
