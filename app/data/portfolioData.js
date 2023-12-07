@@ -146,7 +146,7 @@ export const portfolioData = [
         borderColor: 'dark:border-blue-950 border-slate-400',
         imageBackgroundColor: 'bg-white dark:bg-black',
         demoType: 'Visit Website',
-        image: '/smoothlogo1.png',
+        image: '/SmoothOperations.Echelon.png',
         link: 'https://smooth-operation.vercel.app/',
         tech: [
             { techName: 'HTML', badgeImage: 'https://img.shields.io/badge/HTML-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26', github: '', majorTech: false },
