@@ -40,14 +40,14 @@ export default function Page() {
                                                     />
                                                 </div>
                                                 <div className="w-40 mt-2">
-                                                    <a href="#">
+                                                    <div>
                                                         <h2 className="text-sm md:text-md font-bold tracking-tight text-gray-900 dark:text-gray-100 md:h-16">
                                                             {name}
                                                         </h2>
                                                         <h3 className={`text-xs md:text-sm ${textColor} italic`}>
                                                             {type}
                                                         </h3>
-                                                    </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div className="hidden md:block ml-4">
